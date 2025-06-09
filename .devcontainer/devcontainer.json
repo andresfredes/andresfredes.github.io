@@ -8,5 +8,5 @@
 
 	"forwardPorts": [4000, 35729],    
     "runArgs": ["--name","Blog"],
-    "postStartCommand": "bundle install && bundle exec jekyll serve --baseurl='' --livereload --force_polling"
+    "postStartCommand": "bundle install && bundle exec jekyll serve --baseurl='' --drafts --livereload --force_polling"
 }
