@@ -22,4 +22,13 @@ layout: default
 
   <p><strong>Page not found :(</strong></p>
   <p>The requested page could not be found.</p>
+  <div>
+    {% for post in site.posts limit:1 %}
+      <a href="{{ post.url }}">Somewhere exciting</a>
+    {% endfor %}
+  </div>
+  <div>
+    <a href="/">Take me to safety</a>
+  </div>
+  
 </div>
