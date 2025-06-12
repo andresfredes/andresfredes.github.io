@@ -16,6 +16,20 @@ excerpt_separator: <!--more-->
 
 
 ## Post topics
+ZSA Voyager
+- Better typing
+    - arrangement of keys
+- Customised
+
+Some unconventional thoughts
+- Regular keyboards are terrible and we *should* use better
+- ASI poses an existential threat
+- Buying something should mean you own it
+- Ads make the world worse
+- Privacy should be the default
+- Specific flavours of Linux are now suitable for mass usage
+- We do not live in a meritocracy
+
 Framework Laptop
 - Right to repair
 
@@ -31,6 +45,12 @@ Intro to privacy
 The problems with the internet
 - data incentives
 - how to make this positive / exciting to read about?
+
+LLamas everywhere
+- Ollama model on laptop
+- 'Mods' for AI on CLI
+- Alpaca for AI GUI
+- VS Code?
 
 
 ## Silliness
