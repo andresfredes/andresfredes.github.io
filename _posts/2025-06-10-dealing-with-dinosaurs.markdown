@@ -11,7 +11,7 @@ The first thing that surprised me about looking after a [Deinonychus Antirrhopus
 
 But, before I get to that, lets talk about something much less exciting: Linux.
 
-I am not a Linux enthusiast, despite how I may come across to the people around me. For a long time, Linux has just been the least objectionable choice in a fairly sad lineup of tools that allowed me use a computer. My view of linux was:
+I am not a Linux enthusiast, despite how I may come across to the people around me. For a long time, Linux has just been the least objectionable choice in a fairly sad lineup of tools that allowed me to use a computer. My view of linux was:
 
 ### Pros:
 - Doesn't try to sell me things
