@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Everyone needs a pet"
-tags: something something something
+title:  "Curiosity killed the cat"
+tags: internet
 excerpt_separator: <!--more-->
 ---
 

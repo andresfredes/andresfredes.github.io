@@ -51,8 +51,3 @@ LLamas everywhere
 - 'Mods' for AI on CLI
 - Alpaca for AI GUI
 - VS Code?
-
-
-## Silliness
-Python - write about actual snake
-Persona as guinea pig?

@@ -8,7 +8,8 @@ excerpt_separator: <!--more-->
 <!--more-->
 
 ## To add
-...
+### Home
+- Filter posts by tag
 
 ## To change
 ...
