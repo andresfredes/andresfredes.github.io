@@ -3,6 +3,13 @@ layout: post
 title:  "Self-hosted search"
 tags: search searx searxng self-host tailscale
 excerpt_separator: <!--more-->
+links:
+    - link:
+        title: Google Tracker Beeper
+        url: https://berthub.eu/articles/posts/tracker-beeper/
+    - link:
+        title: SearXNG Documentation
+        url: https://docs.searxng.org/
 ---
 
 It turns out you can have your very own private search engine!

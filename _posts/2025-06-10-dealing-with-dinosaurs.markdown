@@ -3,6 +3,13 @@ layout: post
 title:  "Dealing with dinosaurs"
 tags: bluefin dinosaur linux os
 excerpt_separator: <!--more-->
+links:
+    - link:
+        title: Bluefin Linux
+        url: https://projectbluefin.io/
+    - link:
+        title: Linux on the Framework Laptop
+        url: https://frame.work/au/en/linux
 ---
 
 The first thing that surprised me about looking after a [Deinonychus Antirrhopus](https://en.wikipedia.org/wiki/Deinonychus), cousin to the Velociraptor, was just how low maintenance it turned out to be.
@@ -39,7 +46,3 @@ Essentially, Bluefin removed all of the cons from the list above while even addi
 
 Bluefin has been a welcome addition to my household.
 ![Bluefin, the Deinonychus Antirrhopus](/assets/images/posts/bluefin.png)
-
-Links:
-- [Bluefin Linux](https://projectbluefin.io/)
-- [Linux on the Framework Laptop](https://frame.work/au/en/linux)

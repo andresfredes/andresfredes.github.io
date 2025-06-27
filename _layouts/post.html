@@ -7,6 +7,17 @@ layout: default
 
 {{content}}
 
+{% if page.links %}
+  <small>links:</small>
+  <ul>
+    {% for item in page.links %}
+        <li>
+          <a href="{{ item.link.url }}">{{ item.link.title }}</a>
+        </li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
 {% if page.tags %}
   <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
 {% endif %}
