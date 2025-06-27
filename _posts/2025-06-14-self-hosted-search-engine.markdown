@@ -32,7 +32,3 @@ SearXNG is a meta search engine, meaning that it can search through the results 
 My search is over - this is how I will be finding information from now on.
 
 Edit 19-06-2025: This note is especially for book-lovers. I just tried out [Talpa Search](https://www.talpasearch.com./search) and wanted to share it with you. This is a great example of how good search can be if the core incentive is based purely on it being a good search.
-
-Links:
-- [Google Tracker Beeper](https://berthub.eu/articles/posts/tracker-beeper/)
-- [SearXNG Documentation](https://docs.searxng.org/)
