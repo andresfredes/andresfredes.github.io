@@ -7,14 +7,6 @@ excerpt_separator: <!--more-->
 ### Not a real post - permadraft
 <!--more-->
 
-## Style / tone
-- Positive
-- Light hearted
-- Wrap complaints in jokes or unusual analogies/metaphor
-- Anthropomorphise tech
-    - This could make discussing AI particularly tricky (?)
-
-
 ## Post topics
 ZSA Voyager
 - Better typing

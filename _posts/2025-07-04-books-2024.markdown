@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "2024 - A summary in books"
+tags: book librarything
+excerpt_separator: <!--more-->
+links:
+    - link:
+        title: Harry Potter and the Methods of Rationality
+        url: https://hpmor.com/
+    - link:
+        title: LibraryThing
+        url: https://librarything.com
+    - link: 
+        title: Book Riot - Reader Harder 2024
+        url: https://bookriot.com/read-harder-2024/
+
+---
+
+I like big books and I cannot lie.
+
+<!--more-->
+
+After a very slow year of reading in 2023, I started the new year of 2024 with some reading goals. Firstly, I wanted to increase the number of books I read from the handful of 2023 to something closer to what I consider my ideal. Secondly, I wanted to actively broaden my reading horizons, by selecting a portion of my reading shelf from an online reading challenge. Finally, I had a handful of habits that I wasn't keen on keeping around, so figured that any time I went to do things like watch YouTube on my phone, I should make sure I had a book nearby to read instead.
+
+While I have read over 100 books a year in some past years, coming from 2023's sad showing I set a goal of 20. By early March I had already hit my goal, and while I did not keep up that pace throughout the year, I was clearly getting back into my regular reading habit. Over the course of the year, I also succeeded in somewhat broadening my horizons, reading many books that would not have crossed my path had I not been experimenting in this way.
+
+## Some of the year's standouts:
+### Uzumaki - Junji Ito
+This was a challenge book: "Read a manga"
+I have watched quite a bit of anime, but had never read any manga before. This book came highly recommended from various websites and bookshops, so I decided to give it a go. It is one of the most unusual reading experiences that I have ever had. The story is one that I don't think would work in any other medium. Between the amazing, yet horrifying drawing and the bizarre storylines that explored the central theme in a different way each chapter, this book is well worth the read. I found that I needed to read it in small doses, one chapter at a time, with a long break of something light-hearted between to get the most from it.
+
+### Harry Potter and the Methods of Rationality - Eliezer Yudkowsky
+This is a webserial fanfiction that I reread every couple of years. I was a fan of the original Harry Potter series when they were first released, but they have taken the back seat since I discovered this reimagining of the story. I originally came across this story via the author's non-fiction writing on artificial intelligence and decision theory, and was surprised at how just good it turned out to be.
+
+### Legends of the Condor Heroes - Jin Yong
+This is the only book that my brother has ever recommended to me. I had not heard of the series or author before this and was shocked to find out they are one of the best selling authors of all time. A thoroughly enjoyable page-turning kung-fu adventure.
+
+There will be plenty more books to come in my 2025 list. Happy reading!
+
+## The full 2024 list:
+<div id="wbf1e02a2dcb9c0143c9dbf40d2e0d461"></div><script type="text/javascript" charset="UTF-8" src="https://www.librarything.com/widget_get.php?userid=Andyfred&theID=wbf1e02a2dcb9c0143c9dbf40d2e0d461"></script><noscript><a href="https://www.librarything.com/profile/Andyfred">My Library</a> at <a href="https://www.librarything.com">LibraryThing</a></noscript>
