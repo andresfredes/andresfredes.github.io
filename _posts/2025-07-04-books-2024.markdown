@@ -13,7 +13,6 @@ links:
     - link: 
         title: Book Riot - Reader Harder 2024
         url: https://bookriot.com/read-harder-2024/
-
 ---
 
 I like big books and I cannot lie.

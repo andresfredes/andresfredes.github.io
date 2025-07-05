@@ -45,4 +45,4 @@ Aside from the close relationship with the laptop manufacturer, this Bluefin had
 Essentially, Bluefin removed all of the cons from the list above while even adding a couple of pros! It got out of the way and just let me use my computer. Best of all, when I started using it I found that it has wallpapers of amazing dinosaur scenes that change from day to night based on the time of day.
 
 Bluefin has been a welcome addition to my household.
-![Bluefin, the Deinonychus Antirrhopus](/assets/images/posts/bluefin.png)
+![Bluefin, the Deinonychus Antirrhopus](/assets/images/posts/bluefin/bluefin.png)

@@ -1,0 +1,88 @@
+---
+layout: post
+title:  "Learning to type"
+tags: keyboard typing
+excerpt_separator: <!--more-->
+links:
+    - link:
+        title: My dactyl-manuform keyboard layout
+        url: https://github.com/andresfredes/dactyl-manuform-key-layout
+    - link:
+        title: My cantor-remix keyboard layout
+        url: https://github.com/andresfredes/cantor-remix-layout
+    - link:
+        title: QMK Firmware
+        url: https://qmk.fm/
+    - link:
+        title: Monkeytype
+        url: https://monkeytype.com
+    - link:
+        title: keybr
+        url: https://www.keybr.com/
+    - link:
+        title: ZSA - Voyager
+        url: https://www.zsa.io/voyager
+---
+
+A story about something I decided to do as a programmer.
+
+<!--more-->
+
+After a 15 year career in the events industry doing audio, vision and lighting, I made a change. I had completed a degree in IT in the background and was ready to start an exciting new career. And so I did. I was lucky to get an amazing job doing consultant work as a software developer and had whole-heartedly dived into the world of programming.
+
+Then it happened. I would get home at the end of the day with aching hands and wrists. While at work, I started getting shooting pains that would stop me typing altogether, forcing me to massage and stretch my wrists before being able to continue. It did not take much of this for me to realise that while developing software, I was also developing a Repetitive Strain Injury.
+
+So, what to do? I started looking into RSI and realised that what I thought of as "typing" was essentially a textbook example of how to get it. I was forcing my hands and wrists to do long hours in contorted positions and strange movements that they were not designed for and definitely not used to. I decided that the best long-term solution would be to change the way that I type, using a keyboard setup designed to meet a few important criteria:
+1. Split. I needed to have a keyboard that could separate into two movable halves that would allow my arms to work from their natural position to the sides, rather than scrunched forward and together. It would mean I could avoid any awkward angles for my wrists and also, most importantly, leave space for a cup of tea in the middle.
+2. Ortholinear. A traditional keyboard has its keys staggered horizontally (row stagger), so that each key is a little to the left of the one below it. This makes no sense in the current day, but sticks around because it is how we have always done it. I wanted something where the keys are arranged in neat columns and potentially even staggered vertically (column stagger) to account for the difference in length between my fingers. Ideally, I would be able to rest my hand naturally and each fingertip would be sitting directly on the home row, with the keys above and below directly aligned to that finger's natural direction of movement.
+3. Customisable. QWERTY, the most common layout of letter keys, has been improved upon by layouts that minimise finger movement and shift the effort to the strongest fingers. To effectively use these layouts with any computer, I would need a keyboard that allowed me to choose / adjust what each key does.
+
+In a way, it was lucky that I was not great at typing beforehand because I was not overly invested in my existing bad habits. This allowed me to ditch all of my previous conceptions and start from scratch with the intention of creating a keyboard setup and new muscle memory that would let me type as much as I wanted without injury.
+
+Behold this alien monstrosity:
+![My dactyl manuform keyboard](/assets/images/posts/keyboards/dactyl_manuform_crop.jpg)
+
+## Dactyl Manuform
+I got a Dactyl Manuform. The custom, egonomic, tented, parameterised, concave, split keyboard, in its 4x5+4 variant. With that many descriptors, I could hardly go wrong. This keyboard succeeded in meeting my criteria and actually added an additional benefit: a curved keywell. Each key has been positioned in 3D and angled to suit the most natural range of motion for my fingers. I didn't have the confidence or equipment to produce something this customised, so went with the very expensive option of getting someone to 3D print and hand-wire it for me. When it arrived, I used [QMK Firmware](https://qmk.fm/) to program what each key would be doing and then loaded that program directly into the brains of the keyboard in a process called flashing.
+
+The difference in the physical key locations meant that I would be building muscle memory from scratch. With that in mind, I figured that I might as well learn a new keyboard layout as well. While there are several good options (all miles better than QWERTY), I went with [Colemak](https://github.com/andresfredes/dactyl-manuform-key-layout). This process of selecting what each key would be doing was the most unexpected part of this whole journey thusfar. Starting from a clean slate of buttons that are each easy for my fingers (and thumbs) to access and then choosing the location of each letter and key function reframed the way that I use keyboards. Suddenly, I was thinking about how I use a computer, what shortcuts I use and buttons I press, in order to create a layout that suited me. New thoughts started popping to mind:
+- "Why should I be holding down shift with my weakest finger?"
+- "Why do both my thumbs need access to spacebar?"
+- "What if my common programming symbols ()[]{}<> were on the home row?"
+- "What if backspace, enter and tab were used by my thumbs?"
+
+The mindset change had taken hold and I was now looking to improve my keyboard's layout to suit my specific needs, rather than adapting my typing to the constraints of the keyboard. As I started learning my keyboard layout, I was continuously tweaking keys, swapping locations, and moving things around. This had the counterintuitive effect of improving my learning speed as each key was moving to make it easier for me.
+
+So I started re-learning to type. Don't get me wrong, this was a slow process. Importantly, I quickly realised that while the ergonomics were drastically improved, the muscles still needed to get used to the new movements. This was more a process of physical training than a mental one.
+
+Over time, I improved and eventually got to the point where it was my main keyboard for all things. But all was not well. I had discovered a secret criteria that I had not considered when getting my dactyl.
+
+4) Light weight key switches.
+
+Having had only recently discovered mechanical keyboards, I did not yet realise the implications of my key switch choice. I chose them purely on the basis that I liked the abnoxiously loud click that each press made. Almost as if each tap was cheer for a more natural typing experience. I was finding that my fingers were fatiguing with the effort required to press these heavy switches and as they were soldered directly to the mess of internal wires that connected the whole thing together, I was also somewhat stuck with them.
+
+I decided that I would look for a significantly cheaper way to try out a few things I had read about in the ergo-mech rabbit hole, chief among them, lighter switches. I found a neat little board that was incredibly thin and would be simple enough to solder that I was happy enough to try it myself. I bought all of the pieces I needed and soldered the lot together.
+
+![My cantor remix keyboard](/assets/images/posts/keyboards/cantor_remix_crop.jpg)
+
+## Cantor Remix
+This cute little board didn't have the 3D positioning and concave keywell that was so nice on the Dactyl Manuform, but it turns out it had something that well and truly made up for it: size. This thing was tiny. Its small keys budded up right next to each other so that my fingers only had to move a short distance to reach even the furthest one. The new light switches meant it was effortless pushing the keys down as well. This was a magical experience. What had been a loud effortful clacking became a soft, fluttering process of many tiny movements. Finally, I had found what I needed.
+
+But...
+
+A keyboard is one of the most important tools for my profession and, in my case, a significant tool for many of my hobbies and interests. My rough solder joints started to struggle with 8-hour days, week in, week out. Every so often I would have a small issue and need to do a minor repair - nothing serious, but enough cause to search for something more robust. This board showed me what I needed for ergonomics, but now I needed something built to last.
+
+## ZSA
+This keyboard company had been on my radar from fairly early on in the search for ergonomics, with their keyboards Moonlander and Ergodox EZ being regular recommendations in various forums. My path sent me in a different direction, favouring smaller boards with less keys and ultimately the preference for a low profile. So, just as my Cantor Remix was beginning to struggle, I noticed that ZSA had released a new low profile keyboard: [Voyager](https://www.zsa.io/voyager). It was perfect: the switches were swappable, so I could go as light as I now wanted to; it was low profile; it was easily customisable, this time with a neat website to make the process easier; and importantly, it was tough. With a steel plate as a base and a solid outer casing (both missing from my DIY Cantor Remix), this thing was a well built device.
+
+![My Voyager keyboard](/assets/images/posts/keyboards/voyager_crop.jpg)
+
+Overall, I learned a few things about ergonomic keyboards:
+- **Split** is a must. Shoulder, arm and wrist position are all improved with this one change.
+- **Columnar / Ortholinear** is needed to keep each finger working in its ideal range of motion.
+- **Curved keywell** is a requirement if your keyboard has a lot of keys for the same reason as above.
+- **Customisable layout** is a game-changer in the way you interact with the keyboard as an input device.
+- **Low profile** is my preference over curved keywell when combined with a smaller total number of keys.
+- **Customisable hardware** allows for changing switches and making it feel just right.
+
+My hands and wrists thank me each day for choosing a more ergonomic typing experience.
