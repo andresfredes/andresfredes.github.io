@@ -1,0 +1,51 @@
+---
+layout: post
+title:  "The deadly treadly"
+tags: bicycle
+excerpt_separator: <!--more-->
+---
+I like to ride my bicycle, I like to ride my bike.
+<!--more-->
+
+As a young'un, my first interaction with a bike was one owned by an older kid. Much to my mum's surprise, I hopped on and just started riding it, skipping the usual training wheels and the later process of falling over repeatedly. By the time I had my first mountain bike, I prided myself on the fact that when I rode it at full speed (using the shortcut and not having any delays), I could get home from school quicker than getting a lift in a car.
+
+The bicycle has been my primary means of transport for a significant portion of my adult life. My cycling has persisted despite a variety of setbacks including having five separate bikes stolen; having my tyres slashed and having to walk home in the rain, carrying the defunct cycle; and even an accident that resulted in multiple fractures through my skull and jaw (and yes, I was wearing a helmet). I have cycled for leisure, commuted to and from work and even lived for eight months as a bike camper.
+
+With that in mind, it may seem odd that I have never considered myself a cyclist. My bike has always been a useful tool that helps me do what I am doing, rather than being a part of my sense of self. I suspect that is, at least in part, why it hasn't been a part of my life recently.
+
+For the last several years, my trusty vehicle has been living on its wall hook in the carport, gathering dust. I notice it looking at me sadly every time I get into the car, its tyres deflating alongside its hopes of seeing the sun and feeling the wind again.
+
+- The dangers of convenience
+
+
+# ***
+
+Omally free-wheeled down Moby Dick Terrace toward the Half Acre, his old sit-up-and-beg whirring away beneath him like a good'n. The oil-bathed ball-races of the new Sturmey Archer purred contentedly and the similarly well-oiled saddle springs afforded John's bum the contentment of all but concussion-free cycling. Bike and rider moved in harmonious accord and many was the Buddhist monk, who, recognizing this exhibition of *dharma*, tipped his head towards this perfect union of man and machine. It was a joy to behold. But it had not always been so.
+
+The bike had been with Omally a good many years and for a good many of those years their relationship had been strained and at
+times positively painful to the bth of them. And so it would no doubt have remained had not Chance, if such it was, chosen to intervene. Chance in the person of Professor Slocombe. Brentford's patriarch and resident man of mystery.
+
+Omally had been pedalling with difficulty across Butts Estate, an elegant Georgian quarter of the borough, when he had found himself discharged from Marchant's saddle to land in an untidy heap before the elder, who was standing at his gerden door.
+
+Professor Slocombe observed the 'accident' and the subsequent violent attack Omally visited upon the prone bicycle and chose to intervene. Having calmed the truculent Irishman, he listened with interest to his tale of woe and requested that the bike be left in his care for twenty-four hours. In order to see 'what might be done'. John, whose immediate thought was that the ancient was adding the science of bicycle maintenance to his seemingly endless list of accomplishments, gratefully acceded to his request.
+
+It was therefore much to his surprise when arriving on the morrow he received for his troubles a large piece of parchment upon which was penned thirteen stanzas of archaic English. These read like the prophecies of Nostradamus and to John made precisely the same amount of sense. The Professor told him that, should he follow these requirements to the letter, he would find things much to his advantage. Omally perused the parchment, his forehead furrowed with doubt. Whilst he was so doing, the Professor added that regular oiling was a necessity as was a change of brake blocks, a realignment of the dynamo and a set of new mudguards. Whenever possible the bicycle was to be left facing west when parked, sunshine being preferable to shade, that it was never to be left alone at night, but always in the company of another wheeled conveyance (or at the very least a lawn mower), that it was to be repainted vermillion and referred to at all future times by the name 'Marchant'.
+
+Omally peered furtively at the old man. This was a wind-up surely, in fact the wind-up to end all wind-ups. The Professor, who read not only John's aura but also his thoughts, raised a finger, slim as a twig, and said simply, 'Trust me, John.'
+
+Omally left Professor Slocombe's that day leading Marchant thoughtfully by the handlebar. It really didn't seem worth the candle. It would probably be better simply to dump the old bike and acquire another (Omally being one of those who considered an unpadlocked bicycle public property). But his trust in the Professor was implicit, so before he was half-way to the Flying Swan he had resigned himself that he would take up the challenge.
+
+The parchment proved a great attraction to the lunchtime patrons and a distinguished panel of semanticists, Old Pete, Norman and Omally's closest friend Jim Pooley, set about its translation with relish. As the instructions were teased into twentieth-century Brentonian, their curious nature became apparent. Stanza nine, lines three and four, proved of particular interest:
+```
+    Ne'er Widdershins must Marchant go
+    lest peril and ill luck bestow
+```
+Old Pete, who had recently joined the local coven, picked up on it almost at once. 'It means,' said he, 'that the bike must never be ridden around left-hand corners, on fear of terrible consequence.'
+
+Omally buried his face in his hands. To plans one's route whilst only ever turning to the right was not only ludicrious, it was downright dangerous. Especially upon drunken nights when the gutter led the way home.
+
+But power to the Irishman's elbow, he had persevered, and many a late-night reveller was left to wonder at the madman upon the vermillion cycle crying, 'Homeward Marchant!' as he drove about in ever-decreasing circles, eventually to vanish like the Oozalem bird of ancient myth into his own back passage.
+
+They had been difficult times and no mistake, but now as Omally pedalled effortlessly up the steep incline of Sprite Street, they were no more than memories. He and Marchant were *en rapport*, as the garlic eaters will have it, and the degree of this was remarkable in the extreme. For, to the trained observer, skilled in such matters as bicycle propulsion, watching the cyclist's easy motion as he crested the hill, one thing would have been readily apparent: As man and bike moved in fluid harmony, one vital something - hitherto considered an essential prerequisite to bicycledom - was missing. The pedals turned, the wheels spinned, but nothing whatever moved between the chainwheel and the Sturmey Archer cog... Omally's bicycle Marchant did not have a chain.
+
+**Robert Rankin, The Sprouts of Wrath**
