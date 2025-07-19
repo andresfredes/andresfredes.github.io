@@ -24,7 +24,7 @@ links:
         url: https://www.zsa.io/voyager
 ---
 
-A story about something I decided to do as a programmer.
+A keyboard story.
 
 <!--more-->
 
