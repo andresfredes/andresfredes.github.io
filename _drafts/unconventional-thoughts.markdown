@@ -17,6 +17,6 @@ I like arguing.
 
 We all have a natural inclination to generalise, simplify and create mental models that explain the world and our experiences within it. This process is remarkably efficient, in that we can experience one or two cases of situation and immediately hold a strong belief about how the world works. This natural ability of ours allows us to quickly adapt to unfamiliar scenarios and learn new things quickly. Unfortunately, the patterns we see are so often wrong.
 
-If I am making a map
+If I am making a map ... map vs territory
 
 I enjoy picking at the nuanced edges and grey areas that are an inevitable part of any held opinion. 
