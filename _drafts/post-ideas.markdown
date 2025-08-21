@@ -34,7 +34,7 @@ Intro to privacy
 
 The problems with the internet
 - data incentives
-- how to make this positive / exciting to read about?
+- AI slop
 
 LLamas everywhere
 - Ollama model on laptop
