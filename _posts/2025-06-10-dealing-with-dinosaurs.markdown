@@ -5,7 +5,7 @@ tags: bluefin dinosaur linux os
 excerpt_separator: <!--more-->
 links:
     - link:
-        title: Bluefin Linux
+        title: Bluefin
         url: https://projectbluefin.io/
     - link:
         title: Linux on the Framework Laptop
