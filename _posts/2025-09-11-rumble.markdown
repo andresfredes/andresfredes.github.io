@@ -1,0 +1,43 @@
+---
+layout: post
+title:  "Let's get ready to rumble!"
+tags: linux gaming vr martial-art
+excerpt_separator: <!--more-->
+links:
+    - link:
+        title: Rumble on Steam
+        url: https://store.steampowered.com/app/890550/RUMBLE/
+    - link:
+        title: Rumble review (@habie147 on YouTube)
+        url: https://www.youtube.com/watch?v=c38E-g67m3c
+    - link:
+        title: Rumble deep-dive (@shoeless_man on YouTube)
+        url: https://www.youtube.com/watch?v=Xw8uGQAezm8
+    - link:
+        title: Bazzite
+        url: https://bazzite.gg/
+    - link:
+        title: WiVrn
+        url: https://wivrn.github.io/
+---
+
+This rocks.
+
+<!--more-->
+
+As a teenager I was fascinated with martial arts. I went to weekly training at my local dojo, spent much of my time experimenting with how different types of movements felt, read books on martial arts philosophies and watched an inordinate number of B-grade Kung Fu movies.
+
+Fast forward a couple of decades and I am fascinated with software. I work during the week as a software developer, spending my leisure time gaming, maintaining a homelab, and experimenting with all sorts of software and tech.
+
+Recently, these two eras collided.
+
+Now for some context. Gaming on Linux has had a well-deserved reputation for being fiddly and difficult. That said, while that may have been the case in the past, it is not the today. The collective efforts of many clever contributors have culminated in creations like the two that led to this story: [Bazzite](https://bazzite.gg/) and [WiVRn](https://wivrn.github.io/). Bazzite is a gaming-flavoured version of Linux that takes all the best gaming goodies and tweaks, and has baked them directly into the operating system. With Bazzite, you can turn on your computer for the first time after a fresh install and be ready to dive directly into games. WiVRn is client-server software to be installed on both your gaming computer and VR headset, enabling PCVR on Linux. These two pieces of software turned the hardware of my Quest 2 and my will-only-ever-use-Linux PC into the perfect team.
+
+This brings us to [Rumble](https://store.steampowered.com/app/890550/RUMBLE/). I will leave the descriptions of Rumble to others (see links at the bottom), but the key thing here is that it is a VR game that requires incredibly precise physical movements in order to produce any in-game effects. It turns out that my body recognises this as "martial arts training", but with Anime-like results when I do something correctly. It is immensely satisfying.
+
+And so we get to the important characters in the story: My inner software developer and technologist, Techno; and my inner martial arts enthusiast, Marty. They are from very different times in my life, which accounts for the difference in name construction.
+
+Each time I perform a movement, Techno is paying close attention, attempting to reverse-engineer the game's mechanics and therefore work out what the minimal effort possible trigger might be. The nuances in-game effects being triggered by large physical movements of controllers that are being tracked from a base-station that is, itself, also moving, present a challenge that has Techno hooked. At the same time, Marty is considering the body shapes and movement patterns that would allow him to correctly execute the moves, while conserving energy and maintaining the fluid freedom required to react to the opponent.
+
+Despite being an otherwise unlikely duo, these two have been having a great time together. I am excited to see where they take me.
+
