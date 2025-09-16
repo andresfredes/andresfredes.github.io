@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The map is not the territory"
-tags: thoughts
+tags: thinking ideas
 excerpt_separator: <!--more-->
 ---
 ### An obviously true statement with interesting ramifications.

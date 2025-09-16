@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Self-hosted search"
-tags: search searx searxng self-host tailscale
+tags: search self-host tailscale
 excerpt_separator: <!--more-->
 links:
     - link:

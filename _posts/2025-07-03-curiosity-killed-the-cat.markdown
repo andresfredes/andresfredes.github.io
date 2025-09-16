@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Curiosity killed the cat"
-tags: internet
+tags: internet thinking ideas
 excerpt_separator: <!--more-->
 links:
     - link:
