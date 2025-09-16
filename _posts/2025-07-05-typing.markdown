@@ -24,7 +24,7 @@ links:
         url: https://www.zsa.io/voyager
 ---
 
-A keyboard story.
+### A keyboard story.
 
 <!--more-->
 

@@ -4,7 +4,7 @@ title:  "The map is not the territory"
 tags: thoughts
 excerpt_separator: <!--more-->
 ---
-An obviously true statement with interesting ramifications.
+### An obviously true statement with interesting ramifications.
 <!--more-->
 
 When thinking of a street map, it is easy for us to tell that the thing that we are looking at is a representation of an aspect of the real world - in this case streets. Where it becomes more difficult to tell the thing is a representation of an asepct of the world and not in fact reality itself is in regards to the maps we create in our minds.

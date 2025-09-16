@@ -4,7 +4,7 @@ title:  "Unconventional thoughts"
 tags: ...
 excerpt_separator: <!--more-->
 ---
-What do you believe that most do not?
+### What do you believe that most do not?
 <!--more-->
 
 This post started its life as a "Top 10" list, in which I presented ten, one-line summaries of ideas and beliefs I hold that I don't see to be held in the majority. From there I was going to discuss each in a bit more detail, to provide context for how I had come to each, and maybe even a little encouragement for you to consider your own position. This quickly started to unravel as I looked at my part-written post and couldn't help but see a reflection of the AI generated listacle that is one among many of the low-effort content that has been flooding the internet of late.

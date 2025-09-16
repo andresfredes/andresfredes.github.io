@@ -12,7 +12,7 @@ links:
         url: https://docs.searxng.org/
 ---
 
-It turns out you can have your very own private search engine!
+### It turns out you can have your very own private search engine!
 <!--more-->
 
 Over the course of the last few years, I have been slowly reducing my reliance on the few biggest tech companies and moving towards self-hosting my own tech servcies. The most recent change, which turned out to be significantly simpler than I expected, was search. To give an overview of why I was interested in self-hosting search, we first need some context.

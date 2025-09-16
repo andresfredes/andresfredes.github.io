@@ -4,7 +4,7 @@ title:  "The deadly treadly"
 tags: bicycle
 excerpt_separator: <!--more-->
 ---
-I like to ride my bicycle, I like to ride my bike.
+### I like to ride my bicycle, I like to ride my bike.
 <!--more-->
 
 As a young'un, my first interaction with a bike was one owned by an older kid. Much to my mum's surprise, I hopped on and just started riding it, skipping the usual training wheels and the later process of falling over repeatedly. By the time I had my first mountain bike, I prided myself on the fact that when I rode it at full speed (using the shortcut and not having any delays), I could get home from school quicker than getting a lift in a car.
