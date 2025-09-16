@@ -1,0 +1,24 @@
+name: Update Commit List
+
+on:
+  push:
+    branches: ["master"]
+
+jobs:
+  update-commits:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Generate commit list
+        run: git log --pretty=format:"%H" > /assets/commits.txt
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add commits.txt
+          git diff --cached --quiet || git commit -m "chore: Update commit list"
+          git push
