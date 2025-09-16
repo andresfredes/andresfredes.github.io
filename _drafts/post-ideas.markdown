@@ -7,7 +7,19 @@ excerpt_separator: <!--more-->
 ### Not a real post - permadraft
 <!--more-->
 
+## Todo
+- Create tags page
+- Add categories: tech, books, ideas, about-me
+
 ## Post topics
+d3.js charts: useless blog metrics
+- days since first post vs number of words written
+- tags vs links
+- (pie) posts by category
+- word cloud (by word length?)
+- 
+
+
 Some unconventional thoughts
 1. Regular keyboards are terrible and we *should* use better
 2. ASI poses an existential threat
