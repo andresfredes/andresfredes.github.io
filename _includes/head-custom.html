@@ -1,9 +1,22 @@
-<!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+<!-- Meta -->
+<meta charset='utf-8'>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- Setup theme-color -->
 {% include head-custom-theme-colors.html %}
 
-<!-- You can set your favicon here -->
+<!-- Favicon -->
 <link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
 
-<!-- end custom head snippets -->
+<!-- Stylesheets -->
+<link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+
+<!-- JavaScript -->
+{% if page.chart_js %}
+    {% if jekyll.environment == "development" %}
+        <script src="/assets/js/d3.v7.js"></script>
+    {% else %}
+        <script src="/assets/js/d3.v7.min.js"></script>
+    {% endif %}
+{% endif %}

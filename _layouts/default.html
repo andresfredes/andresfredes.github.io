@@ -1,12 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
-
   </head>
 
   <body>
@@ -22,6 +17,10 @@
 
     <div class="container main-content">
       {{ content }}
+
+      {% if page.chart_js %}
+        <svg id="chart"></svg>
+      {% endif %}
     </div>
 
     <footer>
@@ -31,4 +30,8 @@
     </footer>
 
   </body>
+
+  {% if page.chart_js %}
+    <script src="{{ page.chart_js }}"></script>
+  {% endif %}
 </html>
