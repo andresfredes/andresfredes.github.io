@@ -1,49 +1,310 @@
-62a74b432b3ac8def986b28ad050c9fe7d845103
-fabf515ba21b11449eba719dde5ab87cad3357e3
-64550c23cb9f2423d1dcf568b8e0a2fce639189f
-e94ea7e9dfdeb9a45f749d9aed5baa5abfb896b7
-785eb6b348c092093d76ac49b94364a1cb6e3d13
-fee0502dbe4b09d8938295469ac66d70d9a9e8e3
-731a307f73b03b9b16fa8713f9c519dae9bf3d2a
-00f98fda3f1ed19a14509f5fe8f76b05f6c4eb50
-da3953f733f049376c367fa6f7ea81a7a1459cb5
-afd74ab2034f63d27f5f9dfe7465406a6f163ac5
-0daba3fe614461c71bd653a64360d56093bf7be4
-586b1c730f3d4b9c64db55cec1221a4e4b5693b3
-efc9d6d6b981d0985782430ad70a37e755a3198d
-8b2979867ad513a57eb6133779b2029e014d2972
-f13f8f048c33f2225fbe64b56c60f381f4561378
-135c7b3e9b596838141ef396637068f9a3a8d4fd
-a630378a8fc0a17504f97e3e491128af64881ef5
-8098c923da38debd5a160b072449b52898188ca8
-2b342f8785e9823edbe0ebbe717ac211d6a00bc2
-30f12f78cb137ecd2ffac4fe279fa06b8268a2e5
-e2dc314631bc52860b5da81385324544866e7a42
-0d4a9aea8f9375122bf4f618ec35470ff3b10e24
-da02fa97d58baf2ea621a7a4936c08440761189f
-df6fe33c94946d76ccf3063a2a05f899700467c5
-abb0357de7b0d93d053178bb08cba327d482cede
-4ab1c336c8954c8c1524d6534b4b3bbb6a9840fa
-c9139c3d200c7488d601c8550294dc78eac189bf
-c4bf0ee7c9bcaf2f92235ec9210bd3084de1b8a1
-713b5a0abfb9c48b0350a7af15e90503423d95c4
-9da82b3cf813dfac82b38818a21b57ef144b5163
-d9d59db59284a4d303cbbbd1fc06999d77a8cb69
-83b0557d49e8ea995a992e60b026c91f99795428
-c0d5f5ae43e43c54016c4e194e21ec3f6c520067
-f94135422b81d2e4072a0966c1b328c154f53219
-4842d29cce87064c73caf3271e01effa404b43b9
-7912c440eb29f620862bbbeb7d6f90f4ed94e006
-367c0ccfe0bc7af47be2aeea5c68d70adb6bb29a
-fbf2c0c8c496bc1969323c454d53ab11ea6f75d7
-4b6f6300c62f25bffcd6192ba773b57c948f902b
-44f392a639f7ab5db6f956c479e6d9ae91966f58
-e84da0cda43ac360551824b102fcd118288b31e0
-1626fded217ecf16b9c829450f9df6748e2a2151
-b7b75a8ae0f356bbfbca30daeaebdccf18466922
-0fa9e23f3ac9abc5404737d7250fe4afcc9a9283
-13123dc7858744e529cfad8c24ff72d299e2e83b
-900a4fc00e0b4d21b239dbddae86d665916ff0e6
-3585153a8c15db85c992620b045c2e04c68a6999
-9c2cd39a09572902039223c55a5b8a4be12cdc9b
-7033d9c3324142e78032c326e7a888a676fd4c88
+70c1e82af2404649287914983dd1ec0f1f2a5594|Wed Sep 17 09:18:14 2025 +0000|doc: added commit style guide
+ STYLE.md | 10 ++++++++++
+ 1 file changed, 10 insertions(+)
+
+a01d2e243f4fc367b13b2397ebf8739f555dcb78|Wed Sep 17 09:15:17 2025 +0000|code: updated git log output for commit list
+ .github/workflows/update-commit-list.yaml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+62a74b432b3ac8def986b28ad050c9fe7d845103|Tue Sep 16 22:09:43 2025 +0000|bug: repair github action - not collecting all commits
+ .github/workflows/update-commit-list.yaml | 2 ++
+ 1 file changed, 2 insertions(+)
+
+64550c23cb9f2423d1dcf568b8e0a2fce639189f|Tue Sep 16 21:51:07 2025 +0000|bug: repair github action
+ .github/workflows/update-commit-list.yaml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+e94ea7e9dfdeb9a45f749d9aed5baa5abfb896b7|Tue Sep 16 21:49:40 2025 +0000|bug: repair github action
+ .github/workflows/update-commit-list.yaml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+785eb6b348c092093d76ac49b94364a1cb6e3d13|Tue Sep 16 21:47:11 2025 +0000|code: Added github action to generate commit list for future post
+ .github/workflows/update-commit-list.yaml | 24 ++++++++++++++++++++++++
+ 1 file changed, 24 insertions(+)
+
+fee0502dbe4b09d8938295469ac66d70d9a9e8e3|Tue Sep 16 21:34:06 2025 +0930|plan: post ideas and todo items
+ _drafts/post-ideas.markdown | 12 ++++++++++++
+ 1 file changed, 12 insertions(+)
+
+731a307f73b03b9b16fa8713f9c519dae9bf3d2a|Tue Sep 16 11:35:40 2025 +0000|post: tag updates - various posts
+ _posts/2025-06-14-self-hosted-search-engine.markdown | 2 +-
+ _posts/2025-07-03-curiosity-killed-the-cat.markdown  | 2 +-
+ _posts/2025-07-04-books-2024.markdown                | 2 +-
+ _posts/2025-09-15-map-not-the-territory.markdown     | 2 +-
+ 4 files changed, 4 insertions(+), 4 deletions(-)
+
+00f98fda3f1ed19a14509f5fe8f76b05f6c4eb50|Tue Sep 16 11:31:03 2025 +0000|post: published unconventional thoughts
+ _drafts/unconventional-thoughts.markdown           | 21 -------------
+ _posts/2025-09-16-unconventional-thoughts.markdown | 35 ++++++++++++++++++++++
+ 2 files changed, 35 insertions(+), 21 deletions(-)
+
+da3953f733f049376c367fa6f7ea81a7a1459cb5|Tue Sep 16 10:07:43 2025 +0000|style: darkened main font colour; changed subtitle to title format
+ _drafts/unconventional-thoughts.markdown             | 2 +-
+ _posts/2025-06-10-dealing-with-dinosaurs.markdown    | 2 +-
+ _posts/2025-06-14-self-hosted-search-engine.markdown | 2 +-
+ _posts/2025-07-03-curiosity-killed-the-cat.markdown  | 2 +-
+ _posts/2025-07-04-books-2024.markdown                | 2 +-
+ _posts/2025-07-05-typing.markdown                    | 2 +-
+ _posts/2025-07-19-the-cycle.markdown                 | 2 +-
+ _posts/2025-09-11-rumble.markdown                    | 2 +-
+ _posts/2025-09-15-map-not-the-territory.markdown     | 2 +-
+ _sass/jekyll-theme-hacker.scss                       | 2 +-
+ 10 files changed, 10 insertions(+), 10 deletions(-)
+
+afd74ab2034f63d27f5f9dfe7465406a6f163ac5|Mon Sep 15 11:44:22 2025 +0000|post: published 'map is not territory'
+ _drafts/map-not-the-territory.markdown           | 18 ------------------
+ _posts/2025-09-15-map-not-the-territory.markdown | 24 ++++++++++++++++++++++++
+ 2 files changed, 24 insertions(+), 18 deletions(-)
+
+0daba3fe614461c71bd653a64360d56093bf7be4|Mon Sep 15 02:34:03 2025 +0000|post: new post 'map not territory' extracted from existing
+ _drafts/map-not-the-territory.markdown   | 18 ++++++++++++++++++
+ _drafts/unconventional-thoughts.markdown |  4 ----
+ 2 files changed, 18 insertions(+), 4 deletions(-)
+
+586b1c730f3d4b9c64db55cec1221a4e4b5693b3|Mon Sep 15 02:13:25 2025 +0000|post: updated unconventional thoughts
+ _drafts/unconventional-thoughts.markdown | 17 ++++++++++-------
+ 1 file changed, 10 insertions(+), 7 deletions(-)
+
+efc9d6d6b981d0985782430ad70a37e755a3198d|Thu Sep 11 12:05:55 2025 +0000|post: completed and published
+ _drafts/rumble.markdown           | 30 ---------------------------
+ _posts/2025-09-11-rumble.markdown | 43 +++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 43 insertions(+), 30 deletions(-)
+
+8b2979867ad513a57eb6133779b2029e014d2972|Fri Aug 29 21:54:15 2025 +0000|Started /tags page
+ index.markdown | 3 ---
+ tags.markdown  | 2 +-
+ 2 files changed, 1 insertion(+), 4 deletions(-)
+
+f13f8f048c33f2225fbe64b56c60f381f4561378|Fri Aug 29 00:26:03 2025 +0000|started tags page
+ tags.markdown | 1 +
+ 1 file changed, 1 insertion(+)
+
+135c7b3e9b596838141ef396637068f9a3a8d4fd|Thu Aug 28 22:03:52 2025 +0000|Updated header, footer, minor styling update; ported rumble additions from deprecated tags branch
+ _drafts/rumble.markdown    | 12 +++++++++---
+ _includes/foot-custom.html |  9 ++++++++-
+ _layouts/default.html      | 14 ++------------
+ assets/css/style.scss      | 26 +++++++++++++++++++++++++-
+ 4 files changed, 44 insertions(+), 17 deletions(-)
+
+a630378a8fc0a17504f97e3e491128af64881ef5|Tue Aug 26 22:11:01 2025 +0000|minor correction to dino post; cleared some negative ideas from post ideas; started rumble post
+ _drafts/post-ideas.markdown                       | 10 ----------
+ _drafts/rumble.markdown                           | 24 +++++++++++++++++++++++
+ _posts/2025-06-10-dealing-with-dinosaurs.markdown |  2 +-
+ 3 files changed, 25 insertions(+), 11 deletions(-)
+
+8098c923da38debd5a160b072449b52898188ca8|Thu Aug 21 21:45:03 2025 +0000|Update unc.thoughts
+ _drafts/unconventional-thoughts.markdown | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+2b342f8785e9823edbe0ebbe717ac211d6a00bc2|Thu Aug 21 21:44:37 2025 +0000|Started unconventional thoughts
+ _drafts/post-ideas.markdown              |  2 +-
+ _drafts/unconventional-thoughts.markdown | 22 ++++++++++++++++++++++
+ 2 files changed, 23 insertions(+), 1 deletion(-)
+
+30f12f78cb137ecd2ffac4fe279fa06b8268a2e5|Sat Jul 19 23:53:04 2025 +0000|Update to keyboard post tagline
+ _posts/2025-07-05-typing.markdown | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+e2dc314631bc52860b5da81385324544866e7a42|Sat Jul 19 04:03:33 2025 +0000|Added footer with contact details; minor styling update
+ _includes/foot-custom.html     | 1 +
+ _layouts/default.html          | 5 +++++
+ _sass/jekyll-theme-hacker.scss | 8 ++++++++
+ assets/css/style.scss          | 2 +-
+ 4 files changed, 15 insertions(+), 1 deletion(-)
+
+0d4a9aea8f9375122bf4f618ec35470ff3b10e24|Sat Jul 19 03:35:17 2025 +0000|Published the cycle post
+ .../2025-07-19-the-cycle.markdown                         | 15 ++++++++-------
+ 1 file changed, 8 insertions(+), 7 deletions(-)
+
+da02fa97d58baf2ea621a7a4936c08440761189f|Tue Jul 8 11:40:04 2025 +0000|Minor update to post ideas; Started on bike post
+ _drafts/ode-to-the-cycle.markdown | 51 +++++++++++++++++++++++++++++++++++++++
+ _drafts/post-ideas.markdown       | 22 ++++++++---------
+ 2 files changed, 61 insertions(+), 12 deletions(-)
+
+df6fe33c94946d76ccf3063a2a05f899700467c5|Sat Jul 5 06:39:12 2025 +0000|Minor edit to post image dirs; added new post
+ _layouts/home.html                                 |   2 +-
+ _posts/2025-06-10-dealing-with-dinosaurs.markdown  |   2 +-
+ _posts/2025-07-04-books-2024.markdown              |   1 -
+ _posts/2025-07-05-typing.markdown                  |  88 +++++++++++++++++++++
+ assets/images/posts/{ => bluefin}/bluefin.png      | Bin
+ .../images/posts/keyboards/cantor_remix_crop.jpg   | Bin 0 -> 1625379 bytes
+ .../posts/keyboards/dactyl_manuform_crop.jpg       | Bin 0 -> 1742462 bytes
+ assets/images/posts/keyboards/voyager_crop.jpg     | Bin 0 -> 2373399 bytes
+ 8 files changed, 90 insertions(+), 3 deletions(-)
+
+abb0357de7b0d93d053178bb08cba327d482cede|Fri Jul 4 13:16:25 2025 +0000|wrote new post; removed maintenance notes
+ _drafts/maintenance.markdown          | 15 -------------
+ _drafts/post-ideas.markdown           |  8 -------
+ _posts/2025-07-04-books-2024.markdown | 41 +++++++++++++++++++++++++++++++++++
+ 3 files changed, 41 insertions(+), 23 deletions(-)
+
+4ab1c336c8954c8c1524d6534b4b3bbb6a9840fa|Thu Jul 3 08:27:41 2025 +0000|Published post - curiosity
+ .../2025-07-03-curiosity-killed-the-cat.markdown               | 10 ++++------
+ 1 file changed, 4 insertions(+), 6 deletions(-)
+
+c9139c3d200c7488d601c8550294dc78eac189bf|Sun Jun 29 22:25:54 2025 +0000|Update to curiosity post - draft
+ _drafts/curiosity-killed-the-cat.markdown | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+
+c4bf0ee7c9bcaf2f92235ec9210bd3084de1b8a1|Fri Jun 27 23:18:25 2025 +0000|Correction to rebase
+ _posts/2025-06-14-self-hosted-search-engine.markdown | 4 ----
+ 1 file changed, 4 deletions(-)
+
+713b5a0abfb9c48b0350a7af15e90503423d95c4|Fri Jun 27 23:16:19 2025 +0000|Updated curiosity post; added link handling for posts
+ _drafts/curiosity-killed-the-cat.markdown            |   7 +++++++
+ _includes/head-custom.html                           |   2 +-
+ _layouts/post.html                                   |  11 +++++++++++
+ _posts/2025-06-10-dealing-with-dinosaurs.markdown    |  11 +++++++----
+ _posts/2025-06-14-self-hosted-search-engine.markdown |   7 +++++++
+ assets/images/favicon.ico                            | Bin 0 -> 15406 bytes
+ 6 files changed, 33 insertions(+), 5 deletions(-)
+
+9da82b3cf813dfac82b38818a21b57ef144b5163|Thu Jun 19 09:31:17 2025 +0930|Added post-publish note to self-hosted seach post
+ _posts/2025-06-14-self-hosted-search-engine.markdown | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+d9d59db59284a4d303cbbbd1fc06999d77a8cb69|Sun Jun 15 11:46:53 2025 +0000|Started on curiosity post
+ _drafts/curiosity-killed-the-cat.markdown | 3 +++
+ 1 file changed, 3 insertions(+)
+
+83b0557d49e8ea995a992e60b026c91f99795428|Sat Jun 14 13:57:34 2025 +0000|Finished search engine post and published
+ _drafts/curiosity-killed-the-cat.markdown          |  4 +--
+ _drafts/everyone-needs-a-pet.markdown              |  9 -------
+ _drafts/maintenance.markdown                       |  3 ++-
+ _drafts/post-ideas.markdown                        |  5 ----
+ _drafts/self-hosted-search-engine.markdown         | 21 ----------------
+ .../2025-06-14-self-hosted-search-engine.markdown  | 29 ++++++++++++++++++++++
+ 6 files changed, 33 insertions(+), 38 deletions(-)
+
+c0d5f5ae43e43c54016c4e194e21ec3f6c520067|Sat Jun 14 09:42:41 2025 +0000|Started new draft idea
+ _drafts/curiosity-killed-the-cat.markdown | 12 ++++++++++++
+ 1 file changed, 12 insertions(+)
+
+f94135422b81d2e4072a0966c1b328c154f53219|Sat Jun 14 00:38:39 2025 +0000|Added to search engine post WIP
+ _drafts/self-hosted-search-engine.markdown | 12 ++++++++++--
+ 1 file changed, 10 insertions(+), 2 deletions(-)
+
+4842d29cce87064c73caf3271e01effa404b43b9|Fri Jun 13 13:18:48 2025 +0930|Typo correction from editor-garth
+ _posts/2025-06-10-dealing-with-dinosaurs.markdown | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+7912c440eb29f620862bbbeb7d6f90f4ed94e006|Thu Jun 12 21:59:47 2025 +0000|Started new draft post: search engine
+ _drafts/post-ideas.markdown                | 20 ++++++++++++++++++++
+ _drafts/self-hosted-search-engine.markdown | 13 +++++++++++++
+ 2 files changed, 33 insertions(+)
+
+367c0ccfe0bc7af47be2aeea5c68d70adb6bb29a|Thu Jun 12 21:59:47 2025 +0000|Added maintenance reference; added to drafts
+ _drafts/everyone-needs-a-pet.markdown |  9 +++++++++
+ _drafts/maintenance.markdown          | 14 +++++++++++++
+ _drafts/post-ideas.markdown           | 38 +++++++++++++++++++++++++++++++++++
+ 3 files changed, 61 insertions(+)
+
+fbf2c0c8c496bc1969323c454d53ab11ea6f75d7|Tue Jun 10 22:43:32 2025 +0930|Create README.md
+ README.md | 15 +++++++++++++++
+ 1 file changed, 15 insertions(+)
+
+4b6f6300c62f25bffcd6192ba773b57c948f902b|Tue Jun 10 12:55:42 2025 +0000|Completed post and published; Minor update to 404
+ 404.html                                          |  9 +++++
+ _drafts/dealing-with-dinosaurs.markdown           | 31 ----------------
+ _posts/2025-06-10-dealing-with-dinosaurs.markdown | 45 +++++++++++++++++++++++
+ 3 files changed, 54 insertions(+), 31 deletions(-)
+
+44f392a639f7ab5db6f956c479e6d9ae91966f58|Mon Jun 9 11:07:06 2025 +0000|Drafting first post; updated layouts and home screen
+ .devcontainer/devcontainer.json              |   2 +-
+ _config.yml                                  |   5 +++--
+ _drafts/dealing-with-dinosaurs.markdown      |  31 +++++++++++++++++++++++++++
+ _includes/head-custom-google-analytics.html  |  10 ---------
+ _includes/head-custom.html                   |   3 ---
+ _layouts/default.html                        |   5 +++--
+ _layouts/home.html                           |  14 ++++++++++++
+ _layouts/post.html                           |   2 --
+ _posts/2025-06-06-welcome-to-jekyll.markdown |  29 -------------------------
+ assets/images/posts/bluefin.png              | Bin 0 -> 862306 bytes
+ index.markdown                               |   4 ++--
+ 11 files changed, 54 insertions(+), 51 deletions(-)
+
+e84da0cda43ac360551824b102fcd118288b31e0|Sat Jun 7 12:19:28 2025 +0000|Fixed broken layout usage
+ 404.html       |  2 +-
+ _config.yml    |  2 +-
+ about.markdown | 18 ------------------
+ index.markdown |  2 +-
+ 4 files changed, 3 insertions(+), 21 deletions(-)
+
+1626fded217ecf16b9c829450f9df6748e2a2151|Sat Jun 7 12:11:37 2025 +0000|Attempting to get different theme working
+ Gemfile                                     |   6 +-
+ _config.yml                                 |  85 +--------
+ _includes/head-custom-google-analytics.html |  10 ++
+ _includes/head-custom-theme-colors.html     |   5 +
+ _includes/head-custom.html                  |  12 ++
+ _layouts/default.html                       |  38 ++++
+ _layouts/post.html                          |  14 ++
+ _plugins/posts-lastmod-hook.rb              |  14 --
+ _sass/_default_colors.scss                  |  15 ++
+ _sass/hacker.scss                           |   4 +
+ _sass/jekyll-theme-hacker.scss              | 268 ++++++++++++++++++++++++++++
+ _sass/rouge-base16-dark.scss                |  87 +++++++++
+ _tabs/about.md                              |   8 -
+ _tabs/archives.md                           |   5 -
+ _tabs/categories.md                         |   5 -
+ _tabs/tags.md                               |   5 -
+ assets/css/style.scss                       |   4 +
+ assets/images/bkg.png                       | Bin 0 -> 1218 bytes
+ assets/images/blacktocat.png                | Bin 0 -> 268 bytes
+ assets/images/bullet.png                    | Bin 0 -> 603 bytes
+ 20 files changed, 464 insertions(+), 121 deletions(-)
+
+b7b75a8ae0f356bbfbca30daeaebdccf18466922|Fri Jun 6 11:15:30 2025 +0000|Updated gemfile to suit theme and resolve conflicts
+ Gemfile | 4 +---
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+
+0fa9e23f3ac9abc5404737d7250fe4afcc9a9283|Fri Jun 6 10:57:09 2025 +0000|Updated with Chirpy
+ .gitignore                              |   1 +
+ Gemfile                                 |   6 +-
+ Gemfile.lock                            | 309 --------------------------------
+ _config.yml                             | 141 ++++++++++-----
+ _plugins/posts-lastmod-hook.rb          |  14 ++
+ _tabs/about.md                          |   8 +
+ _tabs/archives.md                       |   5 +
+ _tabs/categories.md                     |   5 +
+ _tabs/tags.md                           |   5 +
+ _posts/about.markdown => about.markdown |   0
+ index.markdown                          |   2 +
+ 11 files changed, 138 insertions(+), 358 deletions(-)
+
+13123dc7858744e529cfad8c24ff72d299e2e83b|Fri Jun 6 10:04:04 2025 +0000|Updating github workflow to account for dir flattening
+ .github/workflows/jekyll-gh-pages.yaml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+900a4fc00e0b4d21b239dbddae86d665916ff0e6|Fri Jun 6 10:00:29 2025 +0000|Flattened dir structure, updated devcontainer and gemfile, initial jekyll build
+ .devcontainer/devcontainer.json              |   2 +-
+ .gitignore                                   |   8 +-
+ 404.html                                     |  25 +++
+ Gemfile                                      |   3 +-
+ Gemfile.lock                                 | 309 +++++++++++++++++++++++++++
+ _config.yml                                  |  49 +++++
+ _posts/2025-06-06-welcome-to-jekyll.markdown |  29 +++
+ _posts/about.markdown                        |  18 ++
+ docs/_config.yaml                            |   6 -
+ docs/index.md                                |   6 -
+ index.markdown                               |   6 +
+ 11 files changed, 444 insertions(+), 17 deletions(-)
+
+3585153a8c15db85c992620b045c2e04c68a6999|Fri Jun 6 18:39:45 2025 +0930|Updated devcontainer to ruby based; added jekyll and ruby configs
+ .devcontainer/Dockerfile                           |  5 ++++
+ .devcontainer/devcontainer.json                    | 31 ++++++----------------
+ .../{jekyll-gh-pages.yml => jekyll-gh-pages.yaml}  |  0
+ .gitignore                                         |  3 +++
+ Gemfile                                            |  2 ++
+ docs/.gitkeep                                      |  0
+ docs/_config.yaml                                  |  6 +++++
+ docs/index.md                                      |  6 +++++
+ 8 files changed, 30 insertions(+), 23 deletions(-)
+
+9c2cd39a09572902039223c55a5b8a4be12cdc9b|Fri Jun 6 17:42:36 2025 +0930|Added initial devcontainer definition and docs folder
+ .devcontainer/devcontainer.json | 27 +++++++++++++++++++++++++++
+ docs/.gitkeep                   |  0
+ 2 files changed, 27 insertions(+)
+
+7033d9c3324142e78032c326e7a888a676fd4c88|Fri Jun 6 17:38:28 2025 +0930|Create jekyll-gh-pages.yml
+ .github/workflows/jekyll-gh-pages.yml | 51 +++++++++++++++++++++++++++++++++++
+ 1 file changed, 51 insertions(+)
