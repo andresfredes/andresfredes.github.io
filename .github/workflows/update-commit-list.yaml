@@ -15,7 +15,7 @@ jobs:
           fetch-depth: 0
 
       - name: Generate commit list
-        run: git log --pretty=format:"%H" > ./assets/commits.txt
+        run: git log --author="Andres" --pretty=format:"%H|%cd|%s" --stat > ./assets/commits.txt
 
       - name: Commit and push changes
         run: |
