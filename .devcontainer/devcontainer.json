@@ -5,7 +5,13 @@
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
-
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"esbenp.prettier-vscode"
+			]
+		}
+	},
 	"forwardPorts": [4000, 35729],    
     "runArgs": ["--name","Blog"],
     "postStartCommand": "bundle install && bundle exec jekyll serve --baseurl='' --drafts --livereload --force_polling"
