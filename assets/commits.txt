@@ -1,3 +1,13 @@
+b755e12d59342b8d9d98b12f8e5f78a4d30bdc93|Sat Sep 20 08:28:28 2025 +0000|code: Added JS commit parsing, ready to start on chart
+ _config.yml              |   3 ++
+ _layouts/default.html    |   2 +-
+ assets/js/git_commits.js | 124 +++++++++++++++++++++++++++++++++++++++++++++--
+ 3 files changed, 125 insertions(+), 4 deletions(-)
+
+47ab8d73c5900bcbefb28214281859884627d417|Fri Sep 19 09:54:18 2025 +0000|code: updated devcontainer spec for easier js writing
+ .devcontainer/devcontainer.json | 8 +++++++-
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+
 68c6d77ade7d221ed03387d2a6cc6c9bfbb29479|Wed Sep 17 22:30:25 2025 +0000|code: Prepared layout for inclusion of d3.js chart
  .jekyllignore                |     1 +
  _drafts/git-commits.markdown |    11 +
