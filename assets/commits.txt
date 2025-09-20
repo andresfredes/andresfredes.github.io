@@ -1,3 +1,10 @@
+adbb699f495693c538cac75c96b9132e7dcda1eb|Sat Sep 20 11:35:03 2025 +0000|code: Added file for chart and updated js to module
+ _includes/head-custom.html |  1 +
+ _layouts/default.html      |  2 +-
+ assets/js/chart_builder.js | 10 ++++++++++
+ assets/js/git_commits.js   | 27 +++++++++------------------
+ 4 files changed, 21 insertions(+), 19 deletions(-)
+
 b755e12d59342b8d9d98b12f8e5f78a4d30bdc93|Sat Sep 20 08:28:28 2025 +0000|code: Added JS commit parsing, ready to start on chart
  _config.yml              |   3 ++
  _layouts/default.html    |   2 +-
