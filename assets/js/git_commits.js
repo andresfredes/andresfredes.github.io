@@ -1,18 +1,22 @@
+import { ChartBuilder } from "./chart_builder.js"
+
 (function() {
     const url = "/assets/commits.txt"
     const req = new Request(url)
+    const builder = new ChartBuilder({})
+    builder.buildChart()
 
     window
         .fetch(req)
         .then((res) => res.text())
         .then((text) => {
-            const commits = getCommits(text)
+            const commits = parseCommits(text)
             console.log(commits)
         })
 })()
 
 
-function getCommits(text) {
+function parseCommits(text) {
     const commits = []
     let currentCommit = {}
     let lineSegments = []
@@ -42,7 +46,7 @@ function getCommits(text) {
                 break
             // commit details
             case 3:
-                currentCommit["detail"] = getCommitDetails(
+                currentCommit["detail"] = getDetails(
                     lineSegments[0],
                     lineSegments[1],
                     lineSegments[2]
@@ -58,7 +62,7 @@ function getCommits(text) {
 }
 
 
-function getCommitDetails(hash, date, message) {
+function getDetails(hash, date, message) {
     return {
         "hash": hash,
         "date": Date(date),
@@ -108,16 +112,3 @@ function getTotals(totalsLine) {
     }
     return totals
 }
-
-//     hash: str
-//     date: datetime
-//     message: str
-
-//     files: []
-//     changes: int
-//     plus: int
-//     minus: int
-
-//     num_files: int
-//     insertions: int
-//     deletions: int
