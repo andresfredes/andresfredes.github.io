@@ -13,6 +13,9 @@ show_downloads: false
 baseurl: ""
 url: "https://andresfredes.github.io"
 
+include:
+- assets/commits.txt
+
 remote_theme: pages-themes/hacker@v0.2.0
 plugins:
 - jekyll-remote-theme
