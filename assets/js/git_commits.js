@@ -1,10 +1,17 @@
 import { ChartBuilder } from "./chart_builder.js"
 
-(function() {
+
+
+commitChart()
+
+
+function commitChart() {
     const url = "/assets/commits.txt"
     const req = new Request(url)
-    const builder = new ChartBuilder({})
-    builder.buildChart()
+    const chartConfig = {
+        "containerId": "chart-container"
+    }
+    const builder = new ChartBuilder(chartConfig)
 
     window
         .fetch(req)
@@ -12,103 +19,115 @@ import { ChartBuilder } from "./chart_builder.js"
         .then((text) => {
             const commits = parseCommits(text)
             console.log(commits)
+            builder.buildChart(commits)
         })
-})()
+}
 
 
 function parseCommits(text) {
     const commits = []
-    let currentCommit = {}
-    let lineSegments = []
+    let currentCommit = new Commit()
     const lines = text.split("\n")
     while (lines.length > 0) {
         let currentLine = lines.pop()
         if (currentLine === '') {
             continue
         }
-        lineSegments = currentLine.split("|")
-        switch (lineSegments.length) {
-            // insertion and deletion totals
-            case 1:
-                currentCommit["total"] = getTotals(lineSegments[0])
-                break
-            // file changes
-            case 2:
-                if (!("fileInfo" in currentCommit)) {
-                    currentCommit["fileInfo"] = {
-                        "files": [],
-                        "changes": 0,
-                        "numPlus": 0,
-                        "numMinus": 0
-                    }
-                }
-                currentCommit.fileInfo = addFileDetails(currentCommit.fileInfo, lineSegments[0], lineSegments[1])
-                break
-            // commit details
-            case 3:
-                currentCommit["detail"] = getDetails(
-                    lineSegments[0],
-                    lineSegments[1],
-                    lineSegments[2]
-                )
-                commits.push(currentCommit)
-                currentCommit = {}
-                break
-            default:
-                console.log("Oh oh!")
+        if (currentCommit.addCommitTextLine(currentLine)) {
+            commits.push(currentCommit)
+            currentCommit = new Commit()
         }
     }
     return commits
 }
 
 
-function getDetails(hash, date, message) {
-    return {
-        "hash": hash,
-        "date": Date(date),
-        "message": message
+export class Commit {
+    constructor() {
+        this.entryComplete = false
+        this.detail = {
+            "hash": "",
+            "date": Date.now(),
+            "message": ""
+        }
+        this.fileInfo = {
+            "files": [],
+            "changes": 0,
+            "numPlus": 0,
+            "numMinus": 0
+        }
+        this.total = {
+            "numFiles": 0,
+            "insertions": 0,
+            "deletions": 0
+        }
     }
-}
 
+    addCommitTextLine(line) {
+        const lineSegments = line.split("|")
+        switch (lineSegments.length) {
+            // insertion and deletion totals
+            case 1:
+                this.addTotal(lineSegments[0])
+                break
+            // file changes
+            case 2:
+                this.addFileInfo(lineSegments[0], lineSegments[1])
+                break
+            // commit info
+            case 3:
+                this.addDetail(lineSegments[0], lineSegments[1], lineSegments[2])
+                this.entryComplete = true
+            // not required - debugging only
+            default:
+                console.log("Should not be here!")
+        }
+        return this.entryComplete
+    }
 
-function addFileDetails(current, filename, changes) {
-    current.files.push(filename.trim())
-    if (!(changes.includes("Bin"))) {
-        const changeParts = changes.trim().split(" ")
-        const numChanges = Number(changeParts[0])
-        current.changes += numChanges
-        if (numChanges !== 0) {
-            for (const char of changeParts[1]) {
-                if (char === "+") {
-                    current.numPlus++
-                }
-                if (char === "-") {
-                    current.numMinus++
+    addDetail(hash, date, message) {
+        this.detail.hash = hash
+        this.detail.date = Date(date)
+        this.detail.message = message
+    }
+
+    addFileInfo(filename, changes) {
+        this.fileInfo.files.push(filename.trim())
+        // Ignore Binary file size details - "Bin"
+        if (!(changes.includes("Bin"))) {
+            const changeSplit = changes.trim().split(" ")
+            const numChanges = Number(changeSplit[0])
+            this.fileInfo.changes += numChanges
+            // Ignore numPlus and numMinus when no changes
+            if (numChanges !== 0) {
+                for (const char of changeSplit[1]) {
+                    switch (char) {
+                        case "+":
+                            this.fileInfo.numPlus++
+                            break
+                        case "-":
+                            this.fileInfo.numMinus++
+                            break
+                        // Ignore any other chars if included
+                        default:
+                            break
+                    }
                 }
             }
         }
     }
-    return current
-}
 
-
-function getTotals(totalsLine) {
-    const totals = {
-        "numFiles": 0,
-        "insertions": 0,
-        "deletions": 0
-    }
-    const parts = totalsLine.split(",")
-    for (const part of parts) {
-        const subParts = part.split(" ")
-        const value = Number(subParts[1])
-        if (part.includes("file")) {
-            totals.numFiles += value
-        } else if (part.includes("insert")) {
-            totals.insertions += value
-        } else {
-            totals.deletions += value
+    addTotal(line) {
+        for (const text of line.split(",")) {
+            const words = text.split(" ")
+            const value = Number(words[1])
+            if (text.includes("file")) {
+                this.total.numFiles += value
+            } else if (text.includes("insert")) {
+                this.total.insertions += value
+            } else {
+                this.total.deletions += value
+            }
         }
     }
-    return totals
 }

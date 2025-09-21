@@ -3,8 +3,7 @@ export class ChartBuilder {
         this.config = config
     }
 
-    // functions
-    buildChart() {
+    buildChart(data) {
         console.log("Building chart!")
     }
 }
