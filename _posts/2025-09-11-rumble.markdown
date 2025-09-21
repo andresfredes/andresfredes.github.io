@@ -37,7 +37,7 @@ This brings us to [Rumble](https://store.steampowered.com/app/890550/RUMBLE/). I
 
 And so we get to the important characters in the story: My inner software developer and technologist, Techno; and my inner martial arts enthusiast, Marty. They are from very different times in my life, which accounts for the difference in name construction.
 
-Each time I perform a movement, Techno is paying close attention, attempting to reverse-engineer the game's mechanics and therefore work out what the minimal effort possible trigger might be. The nuances in-game effects being triggered by large physical movements of controllers that are being tracked from a base-station that is, itself, also moving, present a challenge that has Techno hooked. At the same time, Marty is considering the body shapes and movement patterns that would allow him to correctly execute the moves, while conserving energy and maintaining the fluid freedom required to react to the opponent.
+Each time I perform a movement, Techno is paying close attention, attempting to reverse-engineer the game's mechanics and therefore work out what the minimal effort possible trigger might be. The nuances of in-game effects being triggered by large physical movements of controllers that are being tracked from a base-station that is, itself, also moving, present a challenge that has Techno hooked. At the same time, Marty is considering the body shapes and movement patterns that would allow him to correctly execute the moves, while conserving energy and maintaining the fluid freedom required to react to the opponent.
 
 Despite being an otherwise unlikely duo, these two have been having a great time together. I am excited to see where they take me.
 
