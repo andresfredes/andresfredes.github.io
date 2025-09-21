@@ -9,7 +9,7 @@ function commitChart() {
     const url = "/assets/commits.txt"
     const req = new Request(url)
     const chartConfig = {
-        "containerId": "chart-container"
+        "containerId": "#chart-container"
     }
     const builder = new ChartBuilder(chartConfig)
 
@@ -18,7 +18,6 @@ function commitChart() {
         .then((res) => res.text())
         .then((text) => {
             const commits = parseCommits(text)
-            console.log(commits)
             builder.buildChart(commits)
         })
 }
@@ -78,9 +77,11 @@ export class Commit {
             case 3:
                 this.addDetail(lineSegments[0], lineSegments[1], lineSegments[2])
                 this.entryComplete = true
+                break
             // not required - debugging only
             default:
                 console.log("Should not be here!")
+                break
         }
         return this.entryComplete
     }

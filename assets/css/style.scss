@@ -3,6 +3,7 @@
 
 @import 'jekyll-theme-hacker';
 
+// General page and post styles
 html, body {
     height: 100%;
     min-height: 100%;
@@ -26,3 +27,13 @@ footer, footer > .footer-content {
     margin: 0;
 }
 
+// Chart styles
+#chart-container {
+    width: 100%;
+    height: auto;
+}
+
+#chart-svg {
+    width: 100%;
+    height: auto;
+}
