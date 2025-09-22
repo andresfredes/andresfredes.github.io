@@ -8,4 +8,7 @@ chart_js: "/assets/js/git_commits.js"
 ### But not the 'normal' ones
 <!--more-->
 
-Post content here...
+Plan:
+- X axis able to switch between time of commit and commit number
+- Y axis able to switch / layer: total changes, insertions/deletions, +/-, num files changed
+- Colour able to switch: hash colour, "standard"

@@ -88,7 +88,7 @@ export class Commit {
 
     addDetail(hash, date, message) {
         this.detail.hash = hash
-        this.detail.date = Date(date)
+        this.detail.date = new Date(date)
         this.detail.message = message
     }
 
