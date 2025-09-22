@@ -1,3 +1,29 @@
+86783bed7decef0076d141f559265ce98c00f73b|Mon Sep 22 11:21:32 2025 +0000|code: proof of concept chart initialised, ready for iterating
+ _drafts/git-commits.markdown |  5 ++-
+ assets/js/chart_builder.js   | 91 +++++++++++++++++++++++++++++++-------------
+ assets/js/git_commits.js     |  2 +-
+ 3 files changed, 70 insertions(+), 28 deletions(-)
+
+89f98da00f8cbe4a1def3489896ec56d81d15836|Sun Sep 21 11:34:42 2025 +0000|code: starting chart proper WIP
+ _includes/head-custom.html |  2 +-
+ assets/css/style.scss      | 11 ++++++++
+ assets/js/chart_builder.js | 65 ++++++++++++++++++++++++++++++++++++++++++++--
+ assets/js/git_commits.js   |  5 ++--
+ 4 files changed, 78 insertions(+), 5 deletions(-)
+
+b99baa754dd26d177f92ecf2995d2cf768ab9c99|Sun Sep 21 08:39:05 2025 +0000|code: refactor data structure holding commit detiails
+ assets/js/chart_builder.js |   3 +-
+ assets/js/git_commits.js   | 159 +++++++++++++++++++++++++--------------------
+ 2 files changed, 90 insertions(+), 72 deletions(-)
+
+597955f8e7da6a93fc9380e7c1826e46445142ea|Sun Sep 21 08:39:05 2025 +0000|post: minor grammatical error correction
+ _posts/2025-09-11-rumble.markdown | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+ff46b8e8d72db77876c5668b5b7a335f8c9f3759|Sun Sep 21 08:39:05 2025 +0000|bug: corrected broken favicon link
+ _includes/head-custom.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
 adbb699f495693c538cac75c96b9132e7dcda1eb|Sat Sep 20 11:35:03 2025 +0000|code: Added file for chart and updated js to module
  _includes/head-custom.html |  1 +
  _layouts/default.html      |  2 +-
