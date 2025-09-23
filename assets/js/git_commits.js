@@ -1,4 +1,7 @@
-import { ChartBuilder } from "./chart_builder.js"
+import { 
+    ControlBuilder,
+    ChartBuilder
+} from "./chart_builder.js"
 
 
 
@@ -9,8 +12,16 @@ function commitChart() {
     const url = "/assets/commits.txt"
     const req = new Request(url)
     const chartConfig = {
-        "containerId": "#chart-container"
+        "containerId": "chart-container",
+        "gitLogScaledId": "git-log-selector",
+        "actualValuesId": "actual-selector",
+        "absoluteId": "absolute-selector",
+        "numFilesId": "files-selector",
+        "commitTypeId": "commit-type-selector",
+        "scaleByTimeId": "scale-time-selector"
     }
+    const controls = new ControlBuilder(chartConfig)
+    controls.buildControls()
     const builder = new ChartBuilder(chartConfig)
 
     window
