@@ -1,3 +1,9 @@
+cdbad574f474f35c2fbd68b0afc3c78e645763bc|Tue Sep 23 11:25:19 2025 +0000|code: chart controls added; tested dynamic accessors
+ assets/css/style.scss      |   5 +++
+ assets/js/chart_builder.js | 104 ++++++++++++++++++++++++++++++++++++++++++---
+ assets/js/git_commits.js   |  15 ++++++-
+ 3 files changed, 117 insertions(+), 7 deletions(-)
+
 182e0fd7451712e57b5857ede6e79f109d6bf7f2|Mon Sep 22 20:58:32 2025 +0930|Update commit bot to not trigger ci
  .github/workflows/update-commit-list.yaml | 4 ++--
  1 file changed, 2 insertions(+), 2 deletions(-)
