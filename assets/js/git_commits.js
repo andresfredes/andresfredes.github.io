@@ -1,7 +1,4 @@
-import { 
-    ControlBuilder,
-    ChartBuilder
-} from "./chart_builder.js"
+import { ChartBuilder } from "./chart_builder.js"
 
 
 
@@ -20,9 +17,9 @@ function commitChart() {
         "commitTypeId": "commit-type-selector",
         "scaleByTimeId": "scale-time-selector"
     }
-    const controls = new ControlBuilder(chartConfig)
-    controls.buildControls()
+    
     const builder = new ChartBuilder(chartConfig)
+    builder.buildControls()
 
     window
         .fetch(req)
