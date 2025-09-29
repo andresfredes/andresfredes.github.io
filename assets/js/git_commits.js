@@ -14,12 +14,11 @@ function commitChart() {
         "actualValuesId": "actual-selector",
         "absoluteId": "absolute-selector",
         "numFilesId": "files-selector",
-        "commitTypeId": "commit-type-selector",
-        "scaleByTimeId": "scale-time-selector"
+        "scaleByTimeId": "scale-time-selector",
+        "relativeForce": "force-selector"
     }
     
     const builder = new ChartBuilder(chartConfig)
-    builder.buildControls()
 
     window
         .fetch(req)
