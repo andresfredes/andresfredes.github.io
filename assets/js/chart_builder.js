@@ -25,14 +25,17 @@ export class ChartBuilder {
     buildControlsB() {
         const container = d3.select(idSelector(this.config.containerId))
         const controls = container.append("div").attr("class", "control-container")
+        controls.append("div")
+            .append("label")
+            .text("----")
         this.addCheckbox(
             controls,
             this.config.scaleByTimeId,
             "X-axis: Date/Time",
             false
         )
-        const spacer = controls.append("div")
-        spacer.append("label")
+        controls.append("div")
+            .append("label")
             .text("----")
         this.addCheckbox(
             controls,
@@ -51,12 +54,12 @@ export class ChartBuilder {
     buildControlsC() {
         const container = d3.select(idSelector(this.config.containerId))
         const controls = container.append("div").attr("class", "control-container")
-        this.addCheckbox(
-            controls,
-            this.config.relativeForce,
-            "Link force relative to commit total size",
-            false
-        )
+        controls.append("div")
+            .append("label")
+            .text("----")
+        controls.append("div")
+            .append("label")
+            .text("Commits that share file(s) edited")
     }
 
     addCheckbox(containerSelection, id, text, defaultChecked) {
@@ -214,8 +217,7 @@ export class ChartBuilder {
                 "gitScaled": [],
                 "actual": [],
                 "total": [],
-                "files": [],
-                "commits": []
+                "files": []
             }
             
             let xScale = scale.x.index
@@ -267,6 +269,14 @@ export class ChartBuilder {
                         "colour": "blue"
                     })
                 }
+                i++
+            }
+            return filtered
+        }
+
+        const commitData = () => {
+            const commits = []
+            for (const d of this.data) {
                 const links = []
                 const comparisonFiles = accessor.files(d)
                 this.data.forEach(commit => {
@@ -279,21 +289,21 @@ export class ChartBuilder {
                         }
                     }
                 })
-                filtered.commits.push({
-                    "hash": hash,
+                commits.push({
+                    "hash": accessor.hash(d),
                     "changes": scale.y.changes(accessor.logChanges(d)),
                     "colour": scale.colour.type(accessor.typeOrdinal(d)),
                     "sharesFiles": links
                 })
-                i++
             }
-            return filtered
+            return commits
         }
+
         d3.selectAll(".control").on("change", () => {
             this.updateChart(filterData())
         })
-        this.forceChartCreated = false
         this.updateChart(filterData())
+        this.buildForceChart(commitData())
     }
 
     insertDeleteLines(svg, transition, data, cssClass, key, width, opacity) {
@@ -326,10 +336,9 @@ export class ChartBuilder {
 
     updateChart(updateData) {
         
-        // Master transitions
+        // Overarching transitions
         const tA = this.svgA.transition().duration(750)
         const tB = this.svgB.transition().duration(750)
-        const tC = this.svgC.transition().duration(750)
 
         // CHART A
         // Git-scaled values
@@ -395,76 +404,69 @@ export class ChartBuilder {
                         .remove()
                 }
             )
+    }
+
+    buildForceChart(updateData) {
+
+        const nodes = updateData.map((d) => ({ ...d }))
+        const links = updateData.flatMap((d) => {
+            return d.sharesFiles.map((target) => ({ "source": d.hash, target }))
+        })
+
+        const simulation = d3.forceSimulation(nodes)
+            .force("link", d3.forceLink(links).id(d => d.hash).strength(0.1))
+            .force("charge", d3.forceManyBody().strength(-50))
+            .force("x", d3.forceX(this.size.width / 2))
+            .force("y", d3.forceY(this.size.height / 2))
+
+        const link = this.svgC.append("g")
+            .attr("stroke", "white")
+            .attr("stroke-opacity", 0.2)
+            .attr("stroke-width", 1)
+            .selectAll()
+            .data(links)
+            .join("line")
         
-        // CHART C
-        if (!this.forceChartCreated) {
-            const nodes = updateData.commits.map((d) => ({ ...d }))
-            const links = updateData.commits.flatMap((d) => {
-                return d.sharesFiles.map((target) => ({ "source": d.hash, target }))
-            })
-
-            const boundingForce = (strength) => {
-                return (alpha) => {
-                    nodes.forEach(d => {
-                        d.x += (Math.max(10, Math.min(this.size.width - 10, d.x)) - d.x) * strength * alpha;
-                        d.y += (Math.max(10, Math.min(this.size.height - 10, d.y)) - d.y) * strength * alpha;
-                    })
+        const node = this.svgC.append("g")
+            .attr("stroke", "none")
+            .selectAll()
+            .data(nodes)
+            .join("circle")
+            .attr("r", 8)
+            .attr("fill", (d) => d.colour)
+            .call(drag(simulation))
+        
+        simulation.on("tick", () => {
+                link.attr("x1", (d) => d.source.x)
+                    .attr("y1", (d) => d.source.y)
+                    .attr("x2", (d) => d.target.x)
+                    .attr("y2", (d) => d.target.y)
+                node.attr("transform", (d) => translate(d.x, d.y))
+                if (simulation.alpha() < 0.01) {
+                    simulation.stop()
                 }
-            }
+        })
 
-            const simulation = d3.forceSimulation(nodes)
-                .force("link", d3.forceLink(links).id((d) => d.hash).strength(0.1))
-                .force("charge", d3.forceManyBody().strength(-5))
-                .force("center", d3.forceCenter(this.size.width / 2, this.size.height / 2).strength(0.3))
-                .force("bounding", boundingForce(1))
-
-            const link = this.svgC.append("g")
-                .attr("stroke", "white")
-                .attr("stroke-opacity", 0.2)
-                .attr("stroke-width", 1)
-                .selectAll()
-                .data(links)
-                .join("line")
-            
-            const node = this.svgC.append("g")
-                .attr("stroke", "none")
-                .selectAll()
-                .data(nodes)
-                .join("circle")
-                .attr("r", 8)
-                .attr("fill", (d) => d.colour)
-                .call(drag(simulation))
-            
-            simulation.on("tick", () => {
-                    link.attr("x1", (d) => d.source.x)
-                        .attr("y1", (d) => d.source.y)
-                        .attr("x2", (d) => d.target.x)
-                        .attr("y2", (d) => d.target.y)
-                    node.attr("transform", (d) => translate(d.x, d.y))
-            })
-
-            function drag(simulation) {
-                return d3.drag()
-                    .on("start", (e, d) => {
-                        if (!e.active) {
-                            simulation.alphaTarget(0.3).restart()
-                        }
-                        d.fx = d.x
-                        d.fy = d.y
-                    })
-                    .on("drag", (e, d) => {
-                        d.fx = e.x
-                        d.fy = e.y
-                    })
-                    .on("end", (e, d) => {
-                        if (!e.active) {
-                            simulation.alphaTarget(0)
-                            d.fx = null
-                            d.fy = null
-                        }
-                    })
-            }
-            this.forceChartCreated = true
+        function drag(simulation) {
+            return d3.drag()
+                .on("start", (e, d) => {
+                    if (!e.active) {
+                        simulation.alphaTarget(0.3).restart()
+                    }
+                    d.fx = d.x
+                    d.fy = d.y
+                })
+                .on("drag", (e, d) => {
+                    d.fx = e.x
+                    d.fy = e.y
+                })
+                .on("end", (e, d) => {
+                    if (!e.active) {
+                        simulation.alphaTarget(0)
+                        d.fx = null
+                        d.fy = null
+                    }
+                })
         }
     }
 }
