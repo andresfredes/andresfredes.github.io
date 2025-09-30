@@ -15,7 +15,7 @@ function commitChart() {
         "absoluteId": "absolute-selector",
         "numFilesId": "files-selector",
         "scaleByTimeId": "scale-time-selector",
-        "relativeForce": "force-selector"
+        "showRawId": "show-raw-selector"
     }
     
     const builder = new ChartBuilder(chartConfig)
@@ -25,6 +25,7 @@ function commitChart() {
         .then((res) => res.text())
         .then((text) => {
             const commits = parseCommits(text)
+            builder.saveText(text)
             builder.buildChart(commits)
         })
 }

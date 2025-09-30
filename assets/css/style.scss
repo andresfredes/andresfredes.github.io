@@ -42,3 +42,11 @@ footer, footer > .footer-content {
     width: 100%;
     height: auto;
 }
+
+.toggle-content {
+    display: none;
+}
+
+#show-raw-selector:checked ~ .toggle-content {
+    display: block;
+}

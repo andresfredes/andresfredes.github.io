@@ -1,8 +1,10 @@
 export class ChartBuilder {
     constructor(config) {
         this.config = config
-        this.colours = {
-        }
+    }
+
+    saveText(text) {
+        this.text = text
     }
 
     buildControlsA() {
@@ -62,6 +64,20 @@ export class ChartBuilder {
             .text("Commits that share file(s) edited")
     }
 
+    buildChartFooter() {
+        const container = d3.select(idSelector(this.config.containerId))
+        const control = container.append("div")
+        control.append("input")
+            .attr("type", "checkbox")
+            .attr("id", this.config.showRawId)
+        control.append("label")
+            .attr("for", this.config.showRawId)
+            .text("Show raw data")
+        control.append("div").attr("class", "toggle-content")
+            .append("p")
+            .text(this.text)
+    }
+
     addCheckbox(containerSelection, id, text, defaultChecked) {
         const localContainer = containerSelection.append("div")
         localContainer.append("input")
@@ -113,6 +129,8 @@ export class ChartBuilder {
             .attr("viewBox", `0 0 ${this.size.width} ${this.size.height}`)
             .attr("preserveAspectRatio", "xMidYMid meet")
             .attr("id", "chart-svg")
+        
+        this.buildChartFooter()
         
         // DATA CALCULATION AND ACCESS
         const safeLog = (d) => {
