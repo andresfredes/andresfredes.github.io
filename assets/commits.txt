@@ -1,3 +1,18 @@
+b242bbc28309e91bf2dc030c24cf59e3ae1dfdb8|Tue Sep 30 10:43:04 2025 +0000|bug: typo
+ _posts/2025-09-30-git-commits.markdown | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+b46ff146b0e414b778a4a5d694886f03d5f30d6c|Tue Sep 30 10:43:04 2025 +0000|code: added raw data panel
+ assets/css/style.scss      |  8 ++++++++
+ assets/js/chart_builder.js | 22 ++++++++++++++++++++--
+ assets/js/git_commits.js   |  3 ++-
+ 3 files changed, 30 insertions(+), 3 deletions(-)
+
+d157fccd6578e843ec48c076ef24fb56bcafacf6|Tue Sep 30 10:43:04 2025 +0000|post: published visualisation post
+ _drafts/git-commits.markdown           | 14 --------------
+ _posts/2025-09-30-git-commits.markdown | 32 ++++++++++++++++++++++++++++++++
+ 2 files changed, 32 insertions(+), 14 deletions(-)
+
 9c79baa4cbd802c4619bc7252ca0a6bee1c9cd50|Mon Sep 29 21:43:44 2025 +0000|code: completed charts
  assets/js/chart_builder.js | 168 +++++++++++++++++++++++----------------------
  1 file changed, 85 insertions(+), 83 deletions(-)
