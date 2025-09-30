@@ -27,6 +27,6 @@ Hanging on the back wall of my office, I have a large print of this [JR-East rai
 
 My work as a programmer has required me to create custom visualisations, in an effort to unravel the stories locked tightly within loads of incomprehensible data. To do this, I use [d3.js](https://d3js.org). Rather than extol the virtues of d3, I have decided to indulge myself in creating some visualisations specifically for this post. These intentionally break many of the "rules" of good charts like omitting titles, axes and legends, as they are there to serve as an example of d3.js that is aesthetically pleasing without derailing the train of thought with insights from the data.
 
-Each chart has some kind of simple interaction availble, either directly or via an external control. The contents of the chart will change over time, as the data feeding into the charts is automatically updated. Importantly, the charts have been great fun to create. If you are particularly curious, I have included the raw data in a panel below the charts.
+Each chart has some kind of simple interaction available, either directly or via an external control. The contents of the chart will change over time, as the data feeding into the charts is automatically updated. Importantly, the charts have been great fun to create. If you are particularly curious, I have included the raw data in a panel below the charts.
 
 If there are any visualisations that you have found profound in one way or another, feel free to share it with me via the email down below.
