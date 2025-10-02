@@ -12,7 +12,6 @@ excerpt_separator: <!--more-->
 - Add categories: tech, books, ideas, about-me
 
 ## Post Ideas
-
 Some unconventional thoughts
 1. Regular keyboards are terrible and we *should* use better
 2. ASI poses an existential threat
