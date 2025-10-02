@@ -1,3 +1,11 @@
+988b9056f617233281d5142512a89bcbded85e1e|Thu Oct 2 21:22:04 2025 +0000|post: published cybersecurity awareness
+ _posts/2025-10-03-cybersecurity.markdown | 33 ++++++++++++++++++++++++++++++++
+ 1 file changed, 33 insertions(+)
+
+47cf279890e4067215b95f1bb341ce56a8f722d2|Thu Oct 2 11:33:42 2025 +0000|plan: Removed used/old post ideas; minor formatting update
+ _drafts/post-ideas.markdown | 16 ++--------------
+ 1 file changed, 2 insertions(+), 14 deletions(-)
+
 b242bbc28309e91bf2dc030c24cf59e3ae1dfdb8|Tue Sep 30 10:43:04 2025 +0000|bug: typo
  _posts/2025-09-30-git-commits.markdown | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
