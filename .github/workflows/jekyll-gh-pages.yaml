@@ -5,6 +5,10 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches: ["master"]
+    # Ignore pushes that only change the generated commit list so
+    # the Update Commit List workflow doesn't trigger a Jekyll build.
+    paths-ignore:
+      - 'assets/commits.txt'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -24,6 +28,9 @@ concurrency:
 jobs:
   # Build job
   build:
+    # Skip this job when the push's head commit message starts with "chore:".
+    # Allow manual runs (workflow_dispatch) regardless of commit message.
+    if: ${{ github.event_name == 'workflow_dispatch' || (github.event.head_commit && !startsWith(github.event.head_commit.message, 'chore:')) }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
