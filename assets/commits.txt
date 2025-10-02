@@ -1,3 +1,7 @@
+9e973bf31f1809a3f8c287cb49ada8aa77345409|Thu Oct 2 22:04:38 2025 +0000|code: updated post date to UTC for immediate visibility
+ ...025-10-03-cybersecurity.markdown => 2025-10-02-cybersecurity.markdown} | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
 0b5f264c9d203354eac2e36d2980efe8fba06af0|Thu Oct 2 21:53:24 2025 +0000|plan: test change for testing workflows
  _drafts/post-ideas.markdown | 1 -
  1 file changed, 1 deletion(-)
