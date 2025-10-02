@@ -7,18 +7,11 @@ excerpt_separator: <!--more-->
 ### Not a real post - permadraft
 <!--more-->
 
-## Todo
+## Code Todo
 - Create tags page
 - Add categories: tech, books, ideas, about-me
 
-## Post topics
-d3.js charts: useless blog metrics
-- days since first post vs number of words written
-- tags vs links
-- (pie) posts by category
-- word cloud (by word length?)
-- 
-
+## Post Ideas
 
 Some unconventional thoughts
 1. Regular keyboards are terrible and we *should* use better
@@ -38,8 +31,3 @@ Framework Laptop
 Devcontainers
 - Cloud native
 - Bluefin
-
-Intro to privacy
-- Why?
-- Mindset w/ example
-- First steps
