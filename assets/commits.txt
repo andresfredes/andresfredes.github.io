@@ -1,3 +1,7 @@
+60404387cce99ed50d90ad00b13a3917d896a81e|Thu Oct 2 21:35:39 2025 +0000|code: added guardsto avoid re-triggering jekyll build on bot actions
+ .github/workflows/jekyll-gh-pages.yaml | 7 +++++++
+ 1 file changed, 7 insertions(+)
+
 988b9056f617233281d5142512a89bcbded85e1e|Thu Oct 2 21:22:04 2025 +0000|post: published cybersecurity awareness
  _posts/2025-10-03-cybersecurity.markdown | 33 ++++++++++++++++++++++++++++++++
  1 file changed, 33 insertions(+)
