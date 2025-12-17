@@ -1,0 +1,52 @@
+---
+layout: post
+title:  "2025 - A summary in books"
+tags: books librarything reading
+excerpt_separator: <!--more-->
+links:
+    - link:
+        title: Worm
+        url: https://parahumans.wordpress.com/
+    - link:
+        title: If Anyone Builds It Everyone Dies
+        url: https://ifanyonebuildsit.com/
+    - link:
+        title: Levy Rozman on YouTube (Gothamchess)
+        url: https://www.youtube.com/@GothamChess
+    - link:
+        title: LibraryThing
+        url: https://librarything.com
+---
+
+### Reading is good for the soul
+
+<!--more-->
+
+Last year, I successfully rebuilt my reading habit after a few slow years and broadened my book horizons in the process. With the habit established, this year I did not need to make any reading goals - I just read.
+
+## Some of the year's standouts:
+### A Dumb Birds Field Guide to the Worst Birds Ever - Matt Kracht
+This book takes a genre that is known for being dry and essentially reference-only and turns it into a page-turning comedy. I learned some interesting bird facts, but more importantly, enjoyed every moment reading this book and sharing it with friends and family. This is a must read for anyone with even a mild interest in birds.
+
+### The Dresden Files - Tim Butcher
+Every couple of years, I find myself drawn back into Dresden's world of contemporary fantasy. It is one of my favourite series and is a great choice for someone trying out fantasy for the first time. Fast-paced, action-packed, dynamic emotional range and just all-round entertaining reading.
+
+### Worm - Wildbow
+Another cotemporary fantasy, but this time much darker and more serious. Worm is a very different take on the superhero theme, focusing on the grey areas around the concepts of hero and villain. Wildbow is remarkably creative with the use of superpowers, both in the variety of different powers and in the deep consideration for their ramifications and interactions.
+
+I have read this story a couple of times and would recommend reading it, arc by arc, alongside the podcast "We've got WORM" which discusses and analyses the story in sections. This experience is like having your own book club read along with you, deepening the experience and bringing up ideas and elements of the story you may not have noticed yourself. This is an uncommon experience that is well-suited to reading Worm, although certainly not required. Note: there are many Worm podcasts, We've Got WORM is the only one I have listened to myself.
+
+Originally written as a weekly serial, this story is available via Wildbow's website [parahumans](https://parahumans.wordpress.com/). This one is not for young readers; consider it to have essentially all trigger warnings.
+
+### How to Win at Chess - Levy Rozman
+Levy does an amazing service to the Chess community by making learning and improving at Chess a fun and straightforward process. I have enjoyed many of his game analysis videos online and so, when considering how I should go about improving my Chess game, his book was a natural choice. I play Chess regularly and generally sit somewhere around the 1000 ELO mark, however I haven't really dived into theory before. This book provided some helpful heuristics for assessing board states and pushed me to learn more about my favoured openings. It also provided an excellent framework for teaching new players, which is something I have been doing a little of this year. This book is definitely aimed at beginner to early intermediate players and does what it does well.
+
+### If Anyone Builds It Everyone Dies - Eliezer Yudkowsky & Nate Soares
+Eliezer Yudkowsky has made my standout list again this year with a starkly different kind of book. This is a sobering assessment of the state of Artifical Intelligence research and the concrete challenges posed by Superintelligent AI. The authors are clear about the scope of the book, which is the core topic of research for the Machine Intelligence Research Institute, which they are Founder and President of respectively. The book is well written and concisely sums up the problem with a clear call to action. This is an important book for the current state of the world.
+
+What will 2026's list bring?
+
+Happy reading!
+
+## The full 2025 list
+<div id="w9af9b31db23b9d88236abeb24253d9e3"></div><script type="text/javascript" charset="UTF-8" src="https://www.librarything.com/widget_get.php?userid=Andyfred&theID=w9af9b31db23b9d88236abeb24253d9e3"></script><noscript><a href="https://www.librarything.com/profile/Andyfred">My Library</a> at <a href="https://www.librarything.com">LibraryThing</a></noscript>
