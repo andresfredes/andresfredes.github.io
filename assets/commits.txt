@@ -1,3 +1,8 @@
+bd4c93a4256e40ec635caeda8b3fe5acd96b0d4d|Wed Dec 17 21:07:15 2025 +0000|post: Books from 2025
+ _drafts/devcontainers.markdown        | 18 ++++++++++++
+ _posts/2025-12-17-books-2025.markdown | 52 +++++++++++++++++++++++++++++++++++
+ 2 files changed, 70 insertions(+)
+
 8e2f08974800d87544443ee7b1216e8761d45a13|Tue Oct 14 21:01:35 2025 +0000|code: update ruby version
  .devcontainer/Dockerfile | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
