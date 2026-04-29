@@ -1,3 +1,11 @@
+387b66ba01df575e5c55a09c234e7bac9e30f0bb|Wed Apr 29 10:42:55 2026 +0000|plan: added post template
+ _drafts/post-template.markdown | 14 ++++++++++++++
+ 1 file changed, 14 insertions(+)
+
+f0d85e2d1884c1c3f0272651eb66d52a755534f1|Wed Apr 29 10:42:08 2026 +0000|post: Convenience
+ _posts/2026-04-29-convenience.markdown | 43 ++++++++++++++++++++++++++++++++++
+ 1 file changed, 43 insertions(+)
+
 bd4c93a4256e40ec635caeda8b3fe5acd96b0d4d|Wed Dec 17 21:07:15 2025 +0000|post: Books from 2025
  _drafts/devcontainers.markdown        | 18 ++++++++++++
  _posts/2025-12-17-books-2025.markdown | 52 +++++++++++++++++++++++++++++++++++
