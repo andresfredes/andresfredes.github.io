@@ -1,3 +1,7 @@
+84bb1bd5802140d1d6455182808a6439d8bb9cf8|Sun Jun 7 11:55:22 2026 +0000|post: Half full half empty
+ .../2026-06-07-half-full-half-empty.markdown       | 22 ++++++++++++++++++++++
+ 1 file changed, 22 insertions(+)
+
 96b4bebc73a68aab13b58f0df374bbc1216bae84|Sun Jun 7 08:09:24 2026 +0000|code: moved post-template; updated devcontainer to show future posts; added drafts view for dev
  {_drafts => .dev_extras}/post-template.markdown |  0
  .devcontainer/devcontainer.json                 |  2 +-
