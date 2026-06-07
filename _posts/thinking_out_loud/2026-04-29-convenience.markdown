@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Convenience"
-tags: 
+tags: ideas tech
 excerpt_separator: <!--more-->
 links:
     - link:
