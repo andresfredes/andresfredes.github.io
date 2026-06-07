@@ -1,3 +1,25 @@
+96b4bebc73a68aab13b58f0df374bbc1216bae84|Sun Jun 7 08:09:24 2026 +0000|code: moved post-template; updated devcontainer to show future posts; added drafts view for dev
+ {_drafts => .dev_extras}/post-template.markdown |  0
+ .devcontainer/devcontainer.json                 |  2 +-
+ _layouts/home.html                              | 16 +++++++++++++++-
+ 3 files changed, 16 insertions(+), 2 deletions(-)
+
+a45ac8d60dcf0f4f5d6c2846b71c8d14b4435622|Sun Jun 7 05:49:58 2026 +0000|post: add dir structure to _posts
+ _posts/{ => books}/2025-07-04-books-2024.markdown                       | 0
+ _posts/{ => books}/2025-12-17-books-2025.markdown                       | 0
+ _posts/{ => stories}/2025-07-19-the-cycle.markdown                      | 0
+ _posts/{ => tech}/2025-10-02-cybersecurity.markdown                     | 0
+ .../2025-07-03-curiosity-killed-the-cat.markdown                        | 2 +-
+ .../{ => thinking_out_loud}/2025-09-15-map-not-the-territory.markdown   | 0
+ .../{ => thinking_out_loud}/2025-09-16-unconventional-thoughts.markdown | 0
+ _posts/{ => thinking_out_loud}/2026-04-29-convenience.markdown          | 2 +-
+ _posts/{ => tinkering}/2025-06-10-dealing-with-dinosaurs.markdown       | 0
+ _posts/{ => tinkering}/2025-06-14-self-hosted-search-engine.markdown    | 0
+ _posts/{ => tinkering}/2025-07-05-typing.markdown                       | 0
+ _posts/{ => tinkering}/2025-09-11-rumble.markdown                       | 0
+ _posts/{ => tinkering}/2025-09-30-git-commits.markdown                  | 0
+ 13 files changed, 2 insertions(+), 2 deletions(-)
+
 387b66ba01df575e5c55a09c234e7bac9e30f0bb|Wed Apr 29 10:42:55 2026 +0000|plan: added post template
  _drafts/post-template.markdown | 14 ++++++++++++++
  1 file changed, 14 insertions(+)
