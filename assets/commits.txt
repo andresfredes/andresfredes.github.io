@@ -1,3 +1,9 @@
+0831f6f2a0058735fed527f4740ac41a6e5fe784|Thu Nov 26 15:30:44 2026 +1030|Merge branch 'master' of github.com:andresfredes/andresfredes.github.io
+99a15aad6963838600497e514f6fbe2067c26a10|Thu Nov 26 15:13:52 2026 +1030|post: draft updates
+ _drafts/advertising.markdown | 14 ++++++++++++++
+ _drafts/post-ideas.markdown  | 20 ++++++++------------
+ 2 files changed, 22 insertions(+), 12 deletions(-)
+
 84bb1bd5802140d1d6455182808a6439d8bb9cf8|Sun Jun 7 11:55:22 2026 +0000|post: Half full half empty
  .../2026-06-07-half-full-half-empty.markdown       | 22 ++++++++++++++++++++++
  1 file changed, 22 insertions(+)
